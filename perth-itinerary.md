@@ -143,6 +143,31 @@ Driving times below are planning estimates and include a small normal-traffic ma
 
 **Saturday food rule:** protect the 7:30 am ferry, eat breakfast at Rottnest Bakery, carry one emergency snack and take a proper restaurant lunch in Thomson Bay. Hotel Rottnest is the easiest steak-oriented walk-in; reserve Isola or Lontara if the group prefers a guaranteed table.
 
+### Previous option retained in full · Explorer-first low-walking plan
+
+Use this version if the **10:30 am train/tunnel is unavailable**, the friend does not want approximately 240 uneven tunnel steps, or the group decides that beaches and wildlife matter more than military history. The ferry, parking and Fremantle timings remain identical to the new plan above.
+
+| Time | Previous Explorer-first plan | What to do |
+|---|---|---|
+| 8:00–8:30 am | **Rottnest Bakery breakfast** | Buy a proper breakfast, use the toilets and fill bottles. Lunch is at Geordie Bay or after returning to Thomson Bay, so no chilled packed lunch is required. |
+| 8:30–8:40 am | Live timetable and pass check | Confirm the prepaid Island Explorer passes, photograph the current stop board and note that a full bus may require waiting for the next service. |
+| About 8:45 am | Board Island Explorer at Main Bus Stop | Take the one-way clockwise bus. Use the live stop board rather than assuming every 15-minute connection will be exact. |
+| Morning · **Stop 6** | **Little Salmon Bay — short beach stop** | Step onto the sand for the clear sheltered bay. Snorkelling is optional. There are no facilities, so keep the stop to one bus interval unless everyone actively wants longer. |
+| Morning · **Stop 8** | **Wadjemup Lighthouse exterior** | Everyone sees the exterior and viewpoint. The 30-minute guided climb adds **155 stairs** and is optional; the friend can rest near the precinct/Kalli's. Do not wait for a later tour if the convenient one is full. |
+| Late morning · **Stop 11** | **West End wildlife stop** | Use the short Cape Vlamingh/Cathedral Rocks boardwalk and viewing platforms. Look for long-nosed fur seals, eastern osprey, dolphins and possible November humpbacks, then return to the same stop. |
+| Midday | Stay aboard through most north-coast stops | Enjoy Rocky Bay, Stark Bay, Ricey Beach, City of York and Little Armstrong Bay from the bus. This seated section replaces the removed Karlinyah Bidi hike. |
+| Optional · **Stop 18** | Little Parakeet Bay | Get off only if everyone wants another short beach and the buses are running normally. Otherwise remain aboard. |
+| About 1:00 pm · **Stop 19** | **Geordie Bay proper lunch and seated rest** | Eat at Geordie's Cafe rather than carrying a trail lunch. Check the live board before ordering and allow enough time for the one-way bus back to Thomson Bay. If service is delayed, stay aboard and use a Thomson Bay restaurant instead. |
+| By about 3:00 pm | Return to Thomson Bay | Do not rely on beginning the Explorer circuit after the published departure window. The remaining afternoon stays deliberately flexible. |
+| 3:00–4:30 pm | Quokkas, drinks and optional tiny walk | Look for quokkas around the settlement and shaded tea-tree habitat. If everyone still wants more, choose **either** The Basin **or** Bathurst Lighthouse—not a full circuit. |
+| 4:30–5:00 pm | Ferry buffer | Toilets, souvenirs or a drink, then reach the jetty by 5:00 pm. |
+| 5:00–5:25 pm | Boarding buffer | Keep all three QR codes ready. Final boarding closes five minutes before departure. |
+| 5:30–about 6:00 pm | Ferry to Fremantle B Shed | Continue with the same Victoria Quay car collection, optional Fremantle walk and Kailis dinner shown in the new schedule. |
+
+**Previous-plan cut order:** skip Little Parakeet first, then the lighthouse climb, then remain aboard at Geordie Bay and eat in Thomson Bay. Preserve Little Salmon Bay, West End, quokka time and the 5:00 pm jetty target whenever practical.
+
+**Difference in emphasis:** this option provides genuine beach time, more hop-off stops and the lighthouse opportunity. It gives up the Captain Hussey railway, Oliver Hill gun/tunnels, the guaranteed Thomson Bay restaurant hour and the optional morning museum window.
+
 **Saturday parking source of truth:** use the current **Victoria Quay parking-zone plan** and the signs on site, not the location of a Google user-created/stale “Zone 3” pin. Google correctly places E Shed at approximately **-32.05322, 115.74246** and D Shed at approximately **-32.05101, 115.74432**; those landmarks agree with the official aerial plan, which puts long-stay Zone E between the sheds and railway side and Zone F farther east. The web-page parking marker is therefore deliberately labelled an approximate orientation point rather than a navigation destination.
 
 ### Wildlife targets already built into the itinerary
