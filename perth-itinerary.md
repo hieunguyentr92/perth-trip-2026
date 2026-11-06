@@ -100,9 +100,9 @@ Driving times below are planning estimates and include a small normal-traffic ma
 
 **Why lunch is collected in Bayswater:** the Observatory experience ends at 11:45 am and Lake Cave requires arrival before the 2:00 pm tour. The Ampol stop leaves time for a 20-minute foreshore lunch, but not a dependable sit-down restaurant meal. Munch Box still provides the safest fresh Vietnamese option without creating another queue.
 
-## Saturday 7 November · low-walking Rottnest Island Explorer loop
+## Saturday 7 November · Oliver Hill train, proper lunch and low-walking Island Explorer
 
-**Purpose:** keep the island's best scenery and wildlife while removing the 5.7 km Karlinyah Bidi. The day now uses the booked Island Explorer as a clockwise sightseeing loop with only short walks. The official service normally runs from **8:45 am to 3:00 pm at roughly 15-minute intervals**, but Digby Drive roadworks from 2 November may cause delays; the live stop board is the final authority.
+**Purpose:** add the island's distinctive military-history experience without restoring the 5.7 km Karlinyah Bidi. The day now uses the **10:30 am Captain Hussey train + 11:00 am Oliver Hill tunnel tour**, a proper sit-down lunch in Thomson Bay and a mostly seated afternoon circuit on the booked Island Explorer. The Explorer normally leaves the main stop between **8:45 am and 3:00 pm at roughly 15-minute intervals**, but the live stop board is the final authority.
 
 **Target ferry:** Rottnest Express, **7:30 am Fremantle B Shed → Rottnest and 5:30 pm Rottnest → Fremantle B Shed**. Before paying, confirm that the live booking names **B Shed in both directions**; Rottnest Express also uses Northport and the car must not be left at a different terminal.
 
@@ -113,17 +113,18 @@ Driving times below are planning estimates and include a small normal-traffic ma
 | About 6:30–7:00 am | Park and walk west to **Rottnest Express B Shed** | Use the official aerial parking plan embedded in the web page. Do not use red Zone D because it is limited to three hours on Saturday. Renovation works may alter the final walking path, so follow the signed pedestrian route and staff directions. |
 | 7:00–7:25 am | QR check-in and boarding buffer | Rottnest Express recommends arriving at least 30 minutes before departure. With e-tickets and carry-on only, proceed to the boarding gate with all three QR codes ready; use the counter only if assistance is required. Final boarding closes **five minutes before departure**, making 7:25 am the absolute cutoff rather than the arrival target. |
 | 7:30–about 8:00 am | Ferry to Rottnest | No meal is scheduled onboard. Sit outside only if conditions are comfortable. |
-| 8:00–8:30 am | **Rottnest Bakery breakfast** | Buy a proper breakfast. Lunch can be eaten at Geordie Bay or back in the settlement, so there is no need to carry chilled trail food. |
-| 8:30–8:40 am | Toilets, water and live timetable check | Confirm the prepaid Island Explorer passes, photograph the current stop board and note that a full bus may require waiting for the next service. |
-| About 8:45 am | Island Explorer departs Main Bus Stop | Take the clockwise bus. The plan below deliberately uses broad windows rather than brittle minute-by-minute promises because current roadworks may delay services. |
-| Morning · **Stop 6** | **Little Salmon Bay — short beach stop** | Step off for the clear bay and a brief look from the sand. Snorkelling is optional. There are no facilities here, so keep this to one bus interval unless everyone is enjoying it. |
-| Morning · **Stop 8** | **Wadjemup Lighthouse exterior** | The exterior and surrounding viewpoint are the shared stop. The 30-minute guided climb adds **155 stairs** and is optional; one or two people can climb while the friend rests nearby at the precinct/Kalli's. Do not wait for a later tour. |
-| Late morning · **Stop 11** | **West End wildlife stop** | Use only the short Cape Vlamingh/Cathedral Rocks boardwalk and viewing platforms. Look for long-nosed fur seals, eastern osprey, dolphins and possible November humpbacks, then return to the same stop. |
-| Midday | Stay aboard through the north-coast stops | The bus itself supplies the scenery at Rocky Bay, Stark Bay, Ricey Beach, City of York and Little Armstrong Bay. This replaces the long hike. |
-| Optional · **Stop 18** | Little Parakeet Bay | Get off only if everyone wants another short beach stop and buses are running well. If delayed or tired, remain aboard. |
-| About 1:00 pm · **Stop 19** | **Geordie Bay lunch and seated rest** | Use the café/settlement as the proper lunch stop. Check the live board immediately and choose a bus that returns to Thomson Bay before the Explorer finishes at 3:00 pm. |
-| **By 3:00 pm** | Return to Thomson Bay | Do not rely on an Explorer departure after the published operating window. The remaining afternoon is intentionally unhurried. |
-| 3:00–4:30 pm | Quokkas, drinks and optional tiny walk | Look for quokkas around the settlement and shaded tea-tree habitat. If the group still wants more, choose **either** a short look at The Basin **or** Bathurst Lighthouse—not the full circuit. |
+| 8:00–8:45 am | **Rottnest Bakery breakfast** | Buy a proper breakfast, use the toilets, fill bottles and keep only one unopened emergency snack each. Lunch is now a restaurant meal, not packed food. |
+| 8:45–10:05 am | Quokkas, settlement and optional Wadjemup Museum | Stay near Thomson Bay so the train cannot be missed. Look for quokkas in shaded settlement habitat and use any remaining time for the compact museum or waterfront rather than starting the one-way Explorer loop. |
+| 10:05–10:20 am | Walk to Settlement Train Station and buy/check tickets | Target the **10:30 am Captain Hussey train**. Train and tunnel tickets are separate; buy both at the Visitor Centre/Main Bus Stop or use a confirmed package. If the 10:30 experience is unavailable, immediately use the Explorer-first fallback below. |
+| 10:30–11:00 am | **Captain Hussey historical train to Oliver Hill** | The 30-minute train uses the former military railway and removes the 4 km trip to the hill. |
+| 11:00–about 11:50 am | **Oliver Hill Gun & Tunnels Tour** | Guided 9.2-inch gun emplacement and underground engine/ammunition tunnels. This is only about 700 m, but it includes roughly **240 uneven steps**, confined spaces and no rest stop. Anyone not comfortable with that should enjoy the exterior and views instead. |
+| About 11:50 am–12:30 pm | Train back to Thomson Bay | Reconfirm the actual return with staff before leaving the train. The full train-and-tunnel package is normally about two hours. |
+| 12:40–1:40 pm | **Proper sit-down lunch — choose one** | **Hotel Rottnest** is the easiest walk-in steak choice: its current menu includes a scotch-fillet steak sandwich and other pub classics. **Isola** is the book-ahead beachfront Italian/charcoal-grill option. **Lontara** is the book-ahead Southeast Asian option with dishes such as rendang and dumplings. If all three are busy, use **Frankie's** for pizza/pasta or eat promptly at Geordie's later on the bus loop. Ask for the bill when ordering and leave by 1:40 pm. |
+| About 1:45–2:00 pm | Board Island Explorer at Main Bus Stop | Photograph the live stop board. The service is one-way and a full bus may mean waiting for the next one. The afternoon objective is one full scenic circuit with at most one hop-off stop. |
+| Afternoon | Stay aboard through the south coast and Wadjemup Lighthouse | See Henrietta Rocks, Little Salmon Bay, Strickland Bay and the lighthouse from the bus. Do not add the 155-step lighthouse climb after the 240-step tunnel tour. |
+| Afternoon · **Stop 11** | **West End wildlife — the only planned hop-off** | If buses are running normally, use one bus interval for the short Cape Vlamingh/Cathedral Rocks boardwalk and viewing platforms. Look for long-nosed fur seals, eastern osprey, dolphins and possible November humpbacks. If the bus is crowded or late, remain aboard and view West End from the bus. |
+| Afternoon | Stay aboard through the north coast | Rocky Bay, Stark Bay, Ricey Beach, City of York, Little Armstrong Bay and Geordie Bay supply the scenery without another walk. Do not get off at Little Parakeet or Geordie unless the train/tunnel was skipped. |
+| About 3:30–4:30 pm | Return to Thomson Bay; quokkas and relaxed settlement time | Use the remaining hour for quokkas, drinks and souvenirs. Add only a very short waterfront look if everyone has energy. |
 | 4:30–5:00 pm | Ferry buffer | Toilets, souvenirs or a drink, then reach the jetty by 5:00 pm. |
 | 5:00–5:25 pm | Ferry boarding buffer | Rottnest Express recommends arrival 30 minutes before departure; final boarding closes five minutes before. |
 | 5:30–about 6:00 pm | Ferry to Fremantle B Shed | Sunset is around 6:47 pm. |
@@ -132,13 +133,15 @@ Driving times below are planning estimates and include a small normal-traffic ma
 | 7:10–8:05 pm | **Fremantle dinner** | Primary: **Kailis Fishmarket Café, 46 Mews Road**. The earlier ferry gives a more comfortable dinner window. |
 | 8:05–8:45 pm | Drive approximately 30 km to Bayswater | Saturday's hotel food voucher will probably go unused; that is preferable to rushing the island or dinner. |
 
-**Lighthouse split rule:** everyone sees the exterior. Only the people who actively want the 155-step climb buy tickets; the friend can rest nearby. If the first convenient tour is full, skip it and continue rather than waiting.
+**Train/tunnel decision rule:** the train reduces distance, but the tunnel is not mobility-light: approximately 700 m and 240 uneven steps. If the friend dislikes sustained walking but can manage stairs, it is worthwhile. If the steps, confined spaces or two-hour commitment are unattractive, skip it and run the earlier Explorer-first plan instead.
 
-**If buses run late:** skip Little Parakeet first, then stay aboard at Geordie Bay and return directly to Thomson Bay. Keep West End and the quokka time. Be at the ferry jetty by 5:00 pm.
+**Explorer-first fallback:** if the 10:30 train/tunnel is unavailable, start the Explorer around 8:45 am, stop at Little Salmon Bay and West End, stay aboard through the north coast, have a proper lunch at Geordie's around 1:00 pm, and return to Thomson Bay before the published final departures. This fallback preserves the original low-walking island plan.
 
-**Total walking target:** approximately **2–3 km spread across the full day**, mostly flat and broken into short pieces. The only strenuous element is the optional lighthouse staircase. Fremantle can be reduced to dinner only.
+**If buses or lunch run late:** remain aboard at West End, complete the loop without hopping off and protect the 5:00 pm jetty target. Fremantle can be reduced to dinner only.
 
-**Saturday food rule:** protect the 7:30 am ferry, eat breakfast at Rottnest Bakery, carry one emergency snack and plan lunch at Geordie Bay. If the café is too busy, stay on the bus and eat in Thomson Bay after returning.
+**Total walking target:** approximately **2–3 km spread across the full day**. The tunnel concentrates about 240 uneven steps into 45–50 minutes; it is now the day's only strenuous element. The lighthouse climb and long Fremantle loop are removed by default.
+
+**Saturday food rule:** protect the 7:30 am ferry, eat breakfast at Rottnest Bakery, carry one emergency snack and take a proper restaurant lunch in Thomson Bay. Hotel Rottnest is the easiest steak-oriented walk-in; reserve Isola or Lontara if the group prefers a guaranteed table.
 
 **Saturday parking source of truth:** use the current **Victoria Quay parking-zone plan** and the signs on site, not the location of a Google user-created/stale “Zone 3” pin. Google correctly places E Shed at approximately **-32.05322, 115.74246** and D Shed at approximately **-32.05101, 115.74432**; those landmarks agree with the official aerial plan, which puts long-stay Zone E between the sheds and railway side and Zone F farther east. The web-page parking marker is therefore deliberately labelled an approximate orientation point rather than a navigation destination.
 
@@ -233,22 +236,23 @@ Driving times below are planning estimates and include a small normal-traffic ma
 
 ### Optional purchases — do not lock in more
 
-6. **Wadjemup Lighthouse:** decide onsite; target the 10:00 am climb, but use the free exterior and continue if the group is full or maintenance affects access.
-7. **Bell Tower/Bell Chiming:** leave optional and buy only if Monday remains comfortably on time. It is the first Monday activity to omit.
-8. **Lancelin sandboard:** decide locally only if everyone wants it. Never take the rental car onto the dunes.
+6. **Captain Hussey train + Oliver Hill tunnel:** target the **10:30 am train and 11:00 am tunnel tour**. Buy/check availability immediately after breakfast. The experience normally takes about two hours; the tunnel contains around 240 uneven steps. If it is unavailable or the friend does not want the stairs, use the Explorer-first fallback.
+7. **Saturday restaurant:** Hotel Rottnest is walk-in only. Reserve a **12:40–12:45 pm** table at Isola or Lontara only if the group prefers that over the flexible steak-sandwich/pub option.
+8. **Bell Tower/Bell Chiming:** leave optional and buy only if Monday remains comfortably on time. It is the first Monday activity to omit.
+9. **Lancelin sandboard:** decide locally only if everyone wants it. Never take the rental car onto the dunes.
 
 ### Confirm, but do not pay in advance
 
-9. **Hotel parking:** bays are not reserved. Try the accommodation car park, then the hotel's general-use overflow and legal nearby parking. Do not circle repeatedly late at night.
-10. **Rental-car details:** the hybrid is booked; confirm all authorised drivers, excess reduction, exact collection/return times, fuel grade and whether the luggage fits out of sight.
-11. **Chang Thai:** phone from Surfers Point at about **4:45 pm Friday** for a 5:35 pm table or timed takeaway. This is a same-day logistics call, not a booking to make now.
-12. **Flights:** save the Jetstar and Scoot boarding passes when online check-in opens; add your own Tuesday flight and rental-car return timing once confirmed.
-13. **Weather and operations:** check each evening for the next day. B Shed renovations are active and parking is expected to be extremely busy; the island also lists works affecting Wadjemup Lighthouse and the Oliver Hill train. Follow onsite signs and staff instructions.
+10. **Hotel parking:** bays are not reserved. Try the accommodation car park, then the hotel's general-use overflow and legal nearby parking. Do not circle repeatedly late at night.
+11. **Rental-car details:** the hybrid is booked; confirm all authorised drivers, excess reduction, exact collection/return times, fuel grade and whether the luggage fits out of sight.
+12. **Chang Thai:** phone from Surfers Point at about **4:45 pm Friday** for a 5:35 pm table or timed takeaway. This is a same-day logistics call, not a booking to make now.
+13. **Flights:** save the Jetstar and Scoot boarding passes when online check-in opens; add your own Tuesday flight and rental-car return timing once confirmed.
+14. **Weather and operations:** check each evening for the next day. B Shed renovations are active and parking is expected to be extremely busy; train maintenance can result in a coach substitution, so confirm Captain Hussey operation at the Visitor Centre. Follow onsite signs and staff instructions.
 
 ### No advance booking needed
 
 - **Munch Box, Rottnest Bakery, D&Y Banh Mi, U&I, Lobster Shack and Kailis:** walk in. There is enough time in the plan; carry the shelf-stable Adelaide backup if a shop has an unexpected closure.
-- **Wadjemup Lighthouse:** standard individual tickets are sold onsite rather than reserved online. Treat the exterior as the shared visit; only people comfortable with 155 stairs should buy the first convenient climb. If that group is full, continue on the next bus.
+- **Wadjemup Lighthouse:** the bus now passes the precinct without a planned climb. After the tunnel's 240 steps, the additional 155-step lighthouse climb is poor value for this low-walking day.
 - **Kings Park, Heirisson Island and Lake Thetis:** no timed booking is built into the plan.
 - **Aviation Heritage Museum:** do not prepay ordinary admission; the museum currently sells the A$17.50 adult ticket at the door only. Special tours would require advance booking, but none is needed for this itinerary.
 - **Nambung National Park/Pinnacles:** pay the applicable vehicle entry fee on arrival.
@@ -276,6 +280,11 @@ Driving times below are planning estimates and include a small normal-traffic ma
 - [Wadjemup Lighthouse tour times, price and access](https://www.rottnestisland.com/see-do/culture-history/wadjemup-lighthouse-tour)
 - [Victoria Quay official parking zones and Rottnest long-stay guidance](https://www.victoriaquay.com.au/visit/what%27s-happening-at-b-shed)
 - [Rottnest Bakery opening hours and portable sandwich information](https://www.rottnestisland.com/see-do/eat-drink/rottnest-bakery)
+- [Captain Hussey train timetable and ticket guidance](https://www.rottnestisland.com/see-do/culture-history/captain-hussey-historical-train-tour)
+- [Oliver Hill Gun and Tunnels duration, price and access warning](https://www.rottnestisland.com/see-do/culture-history/oliver-hill-gun---tunnels-tour)
+- [Hotel Rottnest opening hours and current menu](https://www.hotelrottnest.com.au/eat-drink/)
+- [Isola lunch hours and reservations](https://www.rottnestisland.com/see-do/eat-drink/isola-rottnest)
+- [Lontara Saturday lunch hours and reservations](https://www.rottnestisland.com/see-do/eat-drink/lontara)
 - [Kailis Fremantle opening hours](https://kailisfremantle.com/) and [Cicerello's Fremantle opening hours](https://www.cicerellos.com.au/contact)
 - [Little Salmon Bay official guide](https://www.rottnestisland.com/see-do/beaches-water-activities/little-salmon-bay)
 - [Kings Park Law Walk and Bushland Nature Trail](https://www.bgpa.wa.gov.au/kings-park/precinct/kings-park-bushland)
