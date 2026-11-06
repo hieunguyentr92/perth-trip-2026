@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Perth trip plan · 5–9 November 2026</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #151515; color: #f5f5f5; }
+    .shell { min-height: 100vh; padding: 16px; }
+    h1 { margin: 0; font-size: 21px; font-weight: 650; }
+    .subhead { margin: 4px 0 14px; color: #c8c8c8; font-size: 13px; }
+    .draft-note { margin: -2px 0 14px; padding: 9px 12px; border: 1px solid #2f6944; border-radius: 9px; background: #1b3023; color: #c9f3d7; font-size: 12px; line-height: 1.45; }
+    .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin-bottom: 12px; }
+    label { display: grid; gap: 5px; min-width: 210px; font-size: 13px; color: #d4d4d4; }
+    select, button { min-height: 38px; border: 1px solid #444; border-radius: 9px; background: #292929; color: #fff; padding: 7px 12px; font: inherit; }
+    button { min-width: 96px; }
+    button:hover { background: #353535; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(340px, 1fr); gap: 12px; }
+    #map { width: 100%; height: min(72vh, 760px); min-height: 500px; background: #cfe8f5; border-radius: 10px; overflow: hidden; }
+    .panel { min-height: 500px; max-height: min(72vh, 760px); overflow-y: auto; border-radius: 10px; background: #202020; padding: 16px; display: flex; flex-direction: column; gap: 16px; }
+    .panel h2 { margin: 0 0 7px; font-size: 17px; font-weight: 650; }
+    .panel p { margin: 0; color: #d0d0d0; font-size: 14px; line-height: 1.5; }
+    .timeline { display: grid; gap: 8px; }
+    .timeline[hidden] { display: none; }
+    .timeline div { display: grid; grid-template-columns: 74px 1fr; gap: 8px; padding-top: 8px; border-top: 1px solid #3b3b3b; }
+    .timeline time { color: #fff; font-size: 13px; font-weight: 650; }
+    .timeline span { color: #cfcfcf; font-size: 13px; line-height: 1.35; }
+    .selected { margin-top: auto; padding-top: 14px; border-top: 1px solid #444; }
+    .selected strong { display: block; margin-bottom: 5px; }
+    .selected small { color: #bdbdbd; line-height: 1.45; font-size: 12px; }
+    .panel-day-detail[hidden] { display: none; }
+    .panel-day-detail { display: grid; gap: 8px; }
+    .panel-day-detail .detail-heading { color: #fff; font-size: 13px; font-weight: 650; text-transform: uppercase; letter-spacing: .04em; }
+    .panel-day-detail .day-body { padding: 0; font-size: 13px; }
+    .panel-day-detail .table-wrap { overflow: visible; margin: 4px 0 10px; }
+    .panel-day-detail table, .panel-day-detail tbody { display: block; width: 100%; min-width: 0; }
+    .panel-day-detail thead { display: none; }
+    .panel-day-detail tr { display: grid; grid-template-columns: 98px 1fr; gap: 2px 10px; padding: 9px 0; border-top: 1px solid #3b3b3b; }
+    .panel-day-detail td { display: block; padding: 0; border: 0; width: auto; min-width: 0; }
+    .panel-day-detail td:first-child { grid-row: 1 / span 2; width: auto; white-space: normal; color: #fff; font-weight: 650; }
+    .panel-day-detail td:nth-child(2) { color: #fff; font-weight: 600; }
+    .panel-day-detail td:nth-child(3) { color: #bdbdbd; line-height: 1.4; }
+    .panel-day-detail p { color: #c8c8c8; font-size: 13px; }
+    .below { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; justify-content: space-between; margin-top: 10px; }
+    .legend { display: flex; flex-wrap: wrap; gap: 12px; color: #c9c9c9; font-size: 13px; }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+    .swatch { display: inline-block; width: 28px; border-top: 3px solid #fff; }
+    .swatch.ferry { border-top-style: dashed; }
+    .swatch.bus { border-top: 3px dashed #5aa9e6; }
+    .swatch.trail { border-top: 4px dotted #52c77f; }
+    .swatch.walk { border-top: 3px dashed #f5c451; }
+    .swatch.train { border-top: 3px dotted #b394f6; }
+    .dot { width: 10px; height: 10px; border: 2px solid #111; border-radius: 50%; background: #fff; }
+    .note { color: #aaa; font-size: 12px; }
+    .parking-guide { margin-top: 14px; border: 1px solid #4a4a4a; border-radius: 10px; background: #202020; overflow: hidden; }
+    .parking-guide[hidden] { display: none; }
+    .parking-guide-copy { padding: 16px; }
+    .parking-guide h2 { margin: 0 0 7px; font-size: 18px; }
+    .parking-guide p { margin: 0; color: #d0d0d0; font-size: 13px; line-height: 1.5; }
+    .parking-guide ul { margin: 10px 0 0; padding-left: 20px; color: #d8d8d8; font-size: 13px; line-height: 1.5; }
+    .parking-guide a { color: #8fc7ff; }
+    .parking-guide figure { margin: 0; background: #fff; }
+    .parking-guide img { display: block; width: 100%; height: auto; }
+    .parking-guide figcaption { padding: 8px 12px; color: #444; background: #f4f4f4; font-size: 11px; line-height: 1.4; }
+    .reference-gallery { margin-top: 18px; }
+    .reference-gallery h2 { margin: 0 0 6px; font-size: 20px; font-weight: 650; }
+    .reference-gallery > p { margin: 0 0 12px; color: #bdbdbd; font-size: 13px; line-height: 1.45; }
+    .reference-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .reference-grid figure { margin: 0; border: 1px solid #444; border-radius: 10px; overflow: hidden; background: #f5f5f5; }
+    .reference-grid a { display: block; }
+    .reference-grid img { display: block; width: 100%; height: 340px; object-fit: contain; background: #fff; }
+    .reference-grid figcaption { padding: 10px 12px; color: #333; background: #f4f4f4; font-size: 12px; line-height: 1.45; }
+    .itinerary { margin-top: 24px; }
+    .itinerary-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; margin-bottom: 10px; }
+    .itinerary h2 { margin: 0; font-size: 20px; font-weight: 650; }
+    .itinerary-status { margin: 0; color: #aaa; font-size: 12px; }
+    .day-plans, .supporting-plans { display: grid; gap: 10px; }
+    .supporting-plans { margin-top: 16px; }
+    details.day-plan, details.support-plan { border: 1px solid #3f3f3f; border-radius: 10px; background: #1e1e1e; overflow: hidden; }
+    details.day-plan[open], details.support-plan[open] { border-color: #666; }
+    details.day-plan.is-selected { box-shadow: inset 4px 0 0 var(--day-colour, #f5c451); }
+    details.day-plan summary, details.support-plan summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; color: #fff; font-weight: 650; cursor: pointer; }
+    details.day-plan summary::marker, details.support-plan summary::marker { color: #bbb; }
+    .day-label { color: #bdbdbd; font-size: 12px; font-weight: 500; white-space: nowrap; }
+    .day-body { padding: 0 16px 16px; color: #d2d2d2; font-size: 14px; line-height: 1.5; }
+    .day-body p { margin: 8px 0 12px; }
+    .day-body h3, .day-body h4 { margin: 18px 0 8px; color: #fff; line-height: 1.3; }
+    .day-body h3 { font-size: 16px; }
+    .day-body h4 { font-size: 14px; }
+    .day-body ul, .day-body ol { margin: 8px 0 14px; padding-left: 22px; }
+    .day-body li { margin: 5px 0; }
+    .day-body a { color: #8fc7ff; }
+    .table-wrap { width: 100%; overflow-x: auto; margin: 10px 0 14px; }
+    .day-body table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    .day-body th, .day-body td { padding: 9px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid #3a3a3a; }
+    .day-body th { color: #fff; font-weight: 650; background: #282828; }
+    .day-body td:first-child { width: 142px; color: #fff; font-weight: 600; white-space: nowrap; }
+    .panel-day-detail .day-body table { min-width: 0; display: block; }
+    .panel-day-detail .day-body tbody { display: block; }
+    .panel-day-detail .day-body tr { display: grid; }
+    .panel-day-detail .day-body td { display: block; width: auto; white-space: normal; }
+    .panel-day-detail .day-body td:first-child { width: auto; white-space: normal; }
+    .itinerary-error { padding: 14px 16px; border: 1px solid #684646; border-radius: 10px; background: #2a2020; color: #f1d4d4; }
+    .leaflet-tooltip.route-label { background: rgba(20,20,20,.92); color: #fff; border: 0; border-radius: 5px; box-shadow: none; font-weight: 650; padding: 3px 6px; }
+    .leaflet-tooltip.route-label::before { display: none; }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: #202020; color: #fff; }
+    .leaflet-popup-content { margin: 13px 15px; line-height: 1.45; }
+    .leaflet-control-attribution { font-size: 10px; }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      #map { height: 65vh; min-height: 450px; }
+      .panel { min-height: 0; }
+      .panel { max-height: none; overflow-y: visible; }
+      .selected { margin-top: 0; }
+      .day-body table { min-width: 650px; }
+      .reference-grid { grid-template-columns: 1fr; }
+      .reference-grid img { height: auto; max-height: 560px; }
+    }
+    @media (max-width: 560px) {
+      .shell { padding: 10px; }
+      label { min-width: min(100%, 220px); flex: 1; }
+      #map { min-height: 410px; }
+      details.day-plan summary { align-items: flex-start; }
+      .day-label { white-space: normal; text-align: right; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <h1>Perth trip plan · 5–9 November 2026</h1>
+    <p class="subhead">Four nights at Quality Hotel Bayswater · one rental car · three travellers</p>
+    <p class="draft-note"><strong>Travel-ready · updated 5 November:</strong> hotel, Busselton 10:00 am, Lake Cave 2:00 pm, Rottnest Express 7:30 am/5:30 pm, Island Explorer and Perth Mint 9:30 am are booked. Download confirmations and QR codes offline. Optional stops are the built-in delay/fatigue buffers.</p>
+    <div class="controls">
+      <label>Day
+        <select id="day">
+          <option value="all">All days</option>
+          <option value="thu">Thu 5 · TR8 greeting + Kings Park</option>
+          <option value="fri">Fri 6 · Margaret River super-day</option>
+          <option value="sat">Sat 7 · Rottnest + Fremantle evening</option>
+          <option value="sun">Sun 8 · Pinnacles sunset + stars</option>
+          <option value="mon">Mon 9 · Mint + train split + aviation</option>
+        </select>
+      </label>
+      <label>View
+        <select id="view">
+          <option value="all">Whole trip</option>
+          <option value="metro">Perth metro</option>
+          <option value="south">Margaret River + Busselton</option>
+          <option value="rottnest">Rottnest Island</option>
+          <option value="fremantle">Fremantle evening walk</option>
+          <option value="north">Lancelin + Pinnacles</option>
+        </select>
+      </label>
+      <button id="fit" type="button">Fit route</button>
+      <button id="details-jump" type="button">Day details</button>
+    </div>
+    <div class="layout">
+      <div id="map" aria-label="Interactive street map of the revised Perth itinerary"></div>
+      <aside class="panel" aria-live="polite">
+        <section>
+          <h2 id="summary-title">Whole trip</h2>
+          <p id="summary-text">Quality Hotel Bayswater is the fixed base. Select a day to see the working schedule and route.</p>
+        </section>
+        <section class="timeline" id="timeline"></section>
+        <section class="panel-day-detail" id="panel-day-detail" hidden></section>
+        <section class="selected" id="detail">
+          <strong>Select a stop</strong>
+          <small>Click a marker for what to do, the allocated time and parking or access notes.</small>
+        </section>
+      </aside>
+    </div>
+    <section class="parking-guide" id="ferry-parking-guide" hidden aria-labelledby="ferry-parking-title">
+      <div class="parking-guide-copy">
+        <h2 id="ferry-parking-title">Saturday ferry parking · use the official zone plan</h2>
+        <p>Google's “Victoria Quay Zone 3” place pin is stale and does not match the current signed zone layout. Navigate to <strong>Peter Hughes Drive / Victoria Quay</strong>, then follow the physical signs rather than that Google pin.</p>
+        <ul>
+          <li><strong>First choice: Zone E (purple)</strong>, the long-stay area east of E Shed and south of C Shed.</li>
+          <li><strong>Overflow: Zone F (yellow)</strong>, at the far eastern end beside D Shed.</li>
+          <li><strong>Do not use Zone D (red)</strong> for the island day: on Saturday it is limited to three hours.</li>
+          <li>After parking, follow the marked pedestrian route west to <strong>Rottnest Express at B Shed</strong>. Renovation signage and staff will direct you to the operating berth.</li>
+        </ul>
+      </div>
+      <figure>
+        <a href="victoria-quay-parking-zone-plan.png" target="_blank" rel="noopener"><img src="victoria-quay-parking-zone-plan.png" alt="Official aerial Victoria Quay parking zone plan showing Zones A to F, E Shed, C Shed, D Shed and ferry landing"></a>
+        <figcaption>Click the plan for the full-resolution version. Cross-check source: <a href="https://www.victoriaquay.com.au/visit/what%27s-happening-at-b-shed" target="_blank" rel="noopener">Victoria Quay visitor information</a>.</figcaption>
+      </figure>
+    </section>
+    <div class="below">
+      <div class="legend" aria-label="Legend">
+        <span><i class="swatch"></i>Car</span>
+        <span><i class="swatch ferry"></i>Ferry</span>
+        <span><i class="swatch bus"></i>Island bus loop</span>
+        <span><i class="swatch trail"></i>Walking trail</span>
+        <span><i class="swatch walk"></i>Local walk</span>
+        <span><i class="swatch train"></i>Airport train</span>
+        <span><i class="dot"></i>Stop</span>
+      </div>
+      <div class="note">Road lines are planning connections, not turn-by-turn navigation. Recheck traffic, weather and ferry status on the day.</div>
+    </div>
+    <section class="reference-gallery" id="reference-gallery" aria-labelledby="reference-gallery-title">
+      <h2 id="reference-gallery-title">Operational reference screenshots</h2>
+      <p>These are the uploaded maps used for the parking decisions. Tap either image to open the full-resolution version before driving.</p>
+      <div class="reference-grid">
+        <figure id="reference-quay">
+          <a href="victoria-quay-parking-zone-plan.png" target="_blank" rel="noopener"><img src="victoria-quay-parking-zone-plan.png" alt="Official aerial Victoria Quay parking zone plan showing Zones A to F and the ferry sheds"></a>
+          <figcaption><strong>Saturday · Victoria Quay:</strong> try long-stay Zone E (purple), then Zone F (yellow). Walk west to the operating Rottnest Express B Shed area and follow renovation signage. Do not rely on Google's stale Zone 3 pin.</figcaption>
+        </figure>
+        <figure id="reference-airport">
+          <a href="perth-airport-parking-map.png" target="_blank" rel="noopener"><img src="perth-airport-parking-map.png" alt="Perth Airport parking facilities map showing the T1 and T2 precinct and LongTerm car parks H and J"></a>
+          <figcaption><strong>Thursday · Perth Airport:</strong> LongTerm H and J serve the T1/T2 precinct and use the free terminal shuttle. Either works; choose the approach with available bays and note the row before boarding the shuttle. Monday uses direct T1 Departures drop-off instead.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="itinerary" id="daily-itinerary" aria-labelledby="itinerary-title">
+      <div class="itinerary-head">
+        <h2 id="itinerary-title">Detailed daily plans</h2>
+        <p class="itinerary-status" id="itinerary-status">Loading the detailed itinerary…</p>
+      </div>
+      <div class="day-plans" id="day-plans"></div>
+      <div class="supporting-plans" id="supporting-plans"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const colours={thu:'#3b9df5',fri:'#f39a4b',sat:'#49bd73',sun:'#e66da3',mon:'#9375dc',base:'#f5c451'};
+    const dayPlans={
+      all:{title:'Whole trip',text:'The fixed bookings protect Margaret River south, Rottnest Island offshore, the Pinnacles north and Monday’s Mint session. The optional stops shown in each day are the shock absorbers—cut them before compressing a booked check-in or driving tired.',items:[['Thu','TR8 greeting + compact Kings Park sunset'],['Fri','Booked Busselton + Lake Cave + Margaret River'],['Sat','Booked Rottnest ferry + low-walking Explorer loop'],['Sun','Lancelin + Pinnacles sunset and stars'],['Mon','Booked Mint + airport train split + aviation']]},
+      thu:{title:'Thursday 5 · TR8 greeting, sunset and hotel dinner',text:'The friend’s Scoot TR8 now arrives at 4:35 pm. MCQ is optional; protect the T1 greeting, keep Kings Park compact and use the dated hotel voucher before the kitchen closes.',items:[['2:00 pm','Arrivals, bags and rental car'],['3:05 pm','Drive to MCQ Morley'],['3:25 pm','15-minute top-up · skip if late'],['3:50 pm','Hotel key + luggage drop'],['4:05 pm','Drive to LongTerm H/J'],['4:25 pm','Park + shuttle to T1'],['4:35 pm','Scoot TR8 scheduled touchdown'],['~5:05–5:35 pm','Greet at public customs exit'],['~6:10 pm','Compact Kings Park circuit'],['6:44 pm','Sunset at War Memorial'],['~7:45 pm','Hotel dinner · use Thu voucher'],['8:45 pm','Kitchen last-order target']]},
+      fri:{title:'Friday 6 · Margaret River super-day',text:'Busselton 10:00 am and Lake Cave 2:00 pm are booked. Depart Munch Box directly; Marlston, Boranup and Bunnitj are optional buffers in that order.',items:[['5:50 am','Munch Box breakfast + lunch pickup'],['6:10 am','Depart directly with full tank'],['8:15 am','Marlston Hill · optional 20 min'],['8:35 am','Drive 55 km to Busselton'],['9:20 am','Park, toilets and booked check-in'],['10:00 am','Booked jetty train + observatory'],['11:45 am','20-minute foreshore lunch + water'],['12:05 pm','Drive 6 km to Ampol Foodary Busselton'],['12:15 pm','Full refill · pay inside with AmpolCash'],['12:30 pm','Drive about 70 km to Lake Cave'],['1:40 pm','Park + booked 2:00 pm check-in'],['2:00 pm','Booked Lake Cave tour'],['3:15 pm','Boranup viewpoint · optional'],['4:20 pm','Surfers Point + river mouth'],['5:05 pm','Bunnitj sampler · optional'],['5:35 pm','Chang Thai early dinner'],['6:15 pm','Begin 280 km return'],['~9:50–10:10 pm','Realistic hotel arrival']]},
+      sat:{title:'Saturday 7 · Low-walking Rottnest loop + Fremantle',text:'The 5.7 km Karlinyah hike is removed. Use the booked Island Explorer for a clockwise sightseeing loop with only short walks at Little Salmon Bay, Wadjemup Lighthouse, West End and optionally Little Parakeet Bay. Current Digby Drive roadworks may delay buses, so use the stop board as the final timetable and be back at Thomson Bay by 3:00 pm.',items:[['5:50 am','Leave Bayswater directly'],['~6:30 am','Park in signed Zone E · Zone F overflow'],['6:35 am','Walk toward B Shed terminal'],['7:00 am','QR ready · counter only if required'],['7:25 am','Final boarding cutoff'],['7:30 am','Ferry to Rottnest'],['8:00 am','Bakery breakfast'],['8:40 am','Main Bus Stop · confirm live timetable'],['~8:45 am','Island Explorer clockwise loop'],['Morning','Little Salmon Bay · short beach stop'],['~10:00 am','Wadjemup Lighthouse · exterior first'],['Optional','155-step lighthouse climb; friend can rest'],['Late morning','West End boardwalk + wildlife'],['Midday','Stay aboard for north-coast scenery'],['Optional','Little Parakeet Bay · short stop'],['~1:00 pm','Geordie Bay lunch/rest'],['By 3:00 pm','Return to Thomson Bay before Explorer ends'],['3:00–4:30 pm','Quokkas + relaxed settlement time'],['Optional','Short Basin/Bathurst walk only if wanted'],['5:00 pm','Return to ferry jetty'],['5:25 pm','Final boarding cutoff'],['5:30 pm','Return ferry'],['6:25 pm','Fremantle walk optional'],['7:10 pm','Kailis harbour dinner']]},
+      sun:{title:'Sunday 8 · Pinnacles sunset + near-new-moon stars',text:'Start Sunday with a gift-card refill at 24-hour Ampol Foodary East Perth, then continue to D&Y. Lancelin is the first gauge checkpoint and Cervantes is the final fuel contingency before the Pinnacles.',items:[['6:40 am','Drive to Ampol Foodary East Perth'],['6:55 am','Full refill · pay inside with AmpolCash'],['7:05 am','Drive to D&Y Banh Mi Cafe'],['7:20 am','Walk-in breakfast + chilled dinner'],['8:00 am','Leave for Lancelin'],['9:50 am','Fuel/toilet checkpoint'],['10:10 am','Lancelin Dunes'],['12:45 pm','Lobster Shack lunch'],['1:25 pm','Fresh ice + fuel check in Cervantes'],['1:40 pm','Lake Thetis Loop · 1.5 km'],['2:35 pm','Pinnacles Discovery Centre'],['3:05 pm','View path + drive loop'],['4:35 pm','Hangover Bay'],['5:30 pm','Return for golden hour'],['6:50 pm','Vietnamese picnic dinner'],['8:15 pm','Dark-sky view'],['8:30 pm','Careful return drive']]},
+      mon:{title:'Monday 9 · booked Mint, airport train and aviation',text:'Target Fire Station parking at 9:00 am for the fixed 9:30 am Mint session. Heirisson, Mint shopping and the bells are progressively removable. The 12:40 pm train split and 3:45 pm museum departure do not move.',items:[['6:50 am','Check out and conceal luggage'],['7:10 am','Munch Box Vietnamese breakfast'],['8:00 am','Heirisson Island · optional if tired'],['9:00 am','Enter CPP Fire Station · start timer'],['9:15 am','Mint check-in target'],['9:30 am','Booked Discover The Perth Mint'],['10:30 am','Optional shop buffer'],['After Mint','Move to CPP Convention Centre'],['As time allows','Elizabeth Quay · bells optional'],['11:45 am','Early lunch near the quay'],['12:30 pm','Return to Convention Centre car park'],['12:40 pm','Wife takes luggage; station by ~12:45'],['~1:25–1:50 pm','Wife reaches T2 · A$3.50 contactless'],['~1:10–1:20 pm','You + friend reach Aviation Heritage Museum'],['3:30 pm','Check live traffic to T1'],['3:45 pm','Hard museum departure · direct terminal drop'],['~4:10–4:20 pm','Planned T1 drop-off'],['4:30 pm','Contingency latest at T1']]}
+    };
+    const stops=[
+      {id:'hotel',day:'thu',days:['thu','fri','sat','sun','mon'],kind:'base',name:'Quality Hotel Bayswater',coord:[-31.917488,115.913246],time:'5–9 Nov · confirmed base',body:'Check-in Thursday; checkout Monday. The room lists a refrigerator, microwave and kettle; the hotel confirmed the mini-fridge is not a freezer. Four dated A$25 vouchers are issued at check-in and can be split across same-day food/drink transactions. Kitchen 11:00 am–9:00 pm; target last order by 8:45 pm.',parking:'Parking is not reserved. Use the accommodation car park first, then the hotel general-use overflow or a legal nearby bay.',anchor:true,tooltipDir:'left',tooltipOffset:[-9,0]},
+      {id:'t1',day:'thu',days:['thu','mon'],name:'Perth Airport T1',coord:[-31.9403,115.9672],time:'Thu TR8 4:35 pm arrival · Mon Scoot 5:50 pm departure',body:'Thursday: park standard LongTerm H/J around 4:25 pm, shuttle to T1 International Arrivals and wait outside the public customs exit. Monday: drive directly to T1 International Departures, remain with the car and unload the friend’s carry-on. Target 4:10–4:20 pm; 4:30 pm is the contingency latest.',parking:'Thursday: LongTerm H or J + free shuttle. Monday: direct passenger drop-off—no parking',anchor:true,tooltipDir:'left',tooltipOffset:[-9,-18]},
+      {id:'mcq',day:'thu',name:'MCQ Morley · Coventry Village',coord:[-31.89463,115.89491],time:'Thu 3:30–3:45 pm',body:'Quick post-arrival fresh-food top-up: about nine sturdy pieces of fruit plus only any missing water or familiar snacks. Shelf-stable cháo/noodles, electrolytes, packaged snacks, insulated bag and zip-locks come from Adelaide.',parking:'Coventry Village centre car park, 243–253 Walter Road West',anchor:true,tooltipDir:'left',tooltipOffset:[-9,-12]},
+      {id:'kings',day:'thu',name:'Kings Park · compact sunset circuit',coord:[-31.9600,115.8440],time:'Thu about 6:10–7:15 pm',body:'Prioritise the State War Memorial, Kaarta Gar-up lookout, Fraser Avenue and the Federation Walkway/Botanic Garden. Add only a short Law Walk section if the friend clears early. Skip the park entirely if customs runs beyond about 6:00 pm.',parking:'Botanic Garden Carpark or another legal signed bay',anchor:true},
+      {id:'northbridge',day:'thu',name:'Northbridge dinner',coord:[-31.9471,115.8582],time:'Thu about 9:15–10:15 pm',body:'U&I Cafe is the robust 24-hour Vietnamese default after international processing; GYG is a simpler backup.',parking:'Use a legal nearby street or CPP bay'},
+      {id:'busselton',day:'fri',name:'Busselton Jetty · booked',coord:[-33.6470,115.3440],time:'Fri arrive 9:20 am · tour 10:00–11:45 am',body:'Booked Jetty Train + Underwater Observatory. The approximately 1 hour 45 minute experience reaches the end of the 1.8 km jetty and descends below the waterline.',parking:'Free Busselton Foreshore parking; booked-tour check-in after parking',anchor:true},
+      {id:'bussfuel',day:'fri',name:'Ampol gift-card refill · Busselton',coord:[-33.6676,115.3446],time:'Fri 12:15–12:30 pm',body:'Fill the hybrid completely after lunch and pay inside with AmpolCash. This official Ampol Foodary accepts AmpolCash Digital and currently trades 5:00 am–10:00 pm Friday.',parking:'Ampol Foodary Busselton, 115 Strelly Street / Busselton Bypass'},
+      {id:'marlston',day:'fri',name:'Marlston Hill Lookout',coord:[-33.31823,115.63587],time:'Fri 8:35–8:55 am',body:'A short tower climb gives 360-degree views across Bunbury Harbour, Koombana Bay, the city and the chequered lighthouse. This replaces the West Pinjarra break; keep the stop to 20 minutes to protect the Busselton booking.',parking:'Legal parking near Apex Drive/Whale View',anchor:true,tooltipDir:'right',tooltipOffset:[9,-12]},
+      {id:'lakecave',day:'fri',name:'Lake Cave · booked',coord:[-34.07909,115.02937],time:'Fri 2:00–3:00 pm',body:'Booked one-hour guided descent through the doline to the reflective underground lake and suspended table. There are 325 steps. Arrive by 1:40 pm and check in immediately.',parking:'Official visitor parking; booked-tour check-in target 1:40–1:45 pm',anchor:true,tooltipDir:'right',tooltipOffset:[9,30]},
+      {id:'boranup',day:'fri',name:'Boranup karri viewpoint',coord:[-34.1040,115.0270],time:'Fri 3:15–3:40 pm',body:'Short roadside karri stop from sealed Caves Road. Do not enter the unsealed Boranup Drive while rental-cover permission remains unresolved.',parking:'Signed pull-off on the eastern side of Caves Road; verify signage on arrival',anchor:true,tooltipDir:'left',tooltipOffset:[-9,16]},
+      {id:'surfers',day:'fri',name:'Surfers Point + river mouth',coord:[-33.97653,114.98669],time:'Fri 4:20–4:50 pm',body:'View the world-class surf break, then the nearby Margaret River mouth where the river reaches the Indian Ocean. Call Chang Thai before leaving for a 5:35 pm table or timed takeaway.',parking:'Official Surfers Point/viewpoint parking',anchor:true,tooltipDir:'left',tooltipOffset:[-9,-16]},
+      {id:'margaret',day:'fri',name:'Margaret River · Bunnitj Biddi + dinner',coord:[-33.94447,115.07492],time:'Fri 5:05–6:15 pm',body:'See Old Kate, then walk the signed opening 600–750 metres of Bunnitj Biddi beside the river and return the same way—roughly 1.2–1.5 km total. This is a short sampler of the 7.3 km one-way trail, followed by the 5:35 pm Chang Thai dinner.',parking:'Rotary Park first; then legal town parking near Chang Thai',anchor:true,tooltipDir:'right',tooltipOffset:[9,16]},
+      {id:'zonee',day:'sat',name:'Victoria Quay · Zone E',coord:[-32.0518,115.7442],time:'Sat about 6:30 am · approximate zone centre',body:'Primary long-stay ferry parking. The marker is only an orientation point based on the official aerial plan and Google’s current E Shed/D Shed geometry: enter from Peter Hughes Drive and follow the purple Zone E signs. If full, continue east to yellow Zone F. Do not navigate to Google’s stale “Zone 3” place pin.',parking:'Paid Zone E; Zone F is the signed long-stay overflow. Zone D is only three hours on Saturday.',anchor:true,tooltipDir:'right',tooltipOffset:[9,0]},
+      {id:'ferry',day:'sat',name:'Rottnest Express · B Shed',coord:[-32.05254,115.74221],time:'Sat terminal target 7:00 am · 7:30 ferry',body:'Walk west from Zone E/F to Rottnest Express at B Shed and follow renovation signage. With valid QR e-tickets and carry-on only, proceed to the boarding gate; use the counter only if ticket or luggage assistance is required. Rottnest Express recommends arrival at least 30 minutes before departure and closes final boarding five minutes before departure. Confirm the outbound and return bookings both say B Shed.',parking:'Do not park at the terminal marker; use signed long-stay Zone E or Zone F.',anchor:true,tooltipDir:'top',tooltipOffset:[0,-18]},
+      {id:'thomson',day:'sat',focus:'rottnest',name:'Thomson Bay · bakery + quokkas',mapLabel:'1 · Thomson Bay',coord:[-31.995696,115.541858],time:'Sat 8:00–8:40 am and about 3:00–5:00 pm',body:'Eat breakfast after arrival, use the toilets, fill bottles and check the live Island Explorer board before boarding. Return before the Explorer finishes at 3:00 pm, then use the low-pressure afternoon for quokkas, refreshments and ferry preparation. Keep two metres away and never touch or feed wildlife.',parking:'Main ferry jetty and Island Explorer interchange; no visitor cars',anchor:true,tooltipDir:'right',tooltipOffset:[10,18]},
+      {id:'littlesalmon',day:'sat',focus:'rottnest',name:'Little Salmon Bay · Stop 6',mapLabel:'2 · Little Salmon Bay',coord:[-32.0156,115.5230],time:'Short morning stop',body:'Step off for the clear sheltered bay and a short look from the sand. Snorkelling is optional; do not turn this into a long swim if the group wants an easy day. There are no facilities here, so use Thomson Bay toilets first.',parking:'Island Explorer Stop 6',anchor:true,tooltipDir:'right',tooltipOffset:[10,12]},
+      {id:'wadjemup',day:'sat',focus:'rottnest',name:'Wadjemup Lighthouse · Stop 8',mapLabel:'3 · Wadjemup Lighthouse',coord:[-32.007291,115.504144],time:'Morning · exterior first, climb optional',body:'The exterior and surrounding viewpoint are the shared stop. The 30-minute interior tour adds 155 stairs and is optional: one or two people can climb while the friend rests nearby at the precinct/Kalli’s. Do not wait for a later tour if it would upset the bus loop.',parking:'Island Explorer Stop 8; follow current staff instructions',anchor:true,tooltipDir:'bottom',tooltipOffset:[0,24]},
+      {id:'westend',day:'sat',focus:'rottnest',name:'West End · seals + osprey',mapLabel:'4 · West End wildlife',coord:[-32.023546,115.450745],time:'Late morning · about 30–40 minutes',body:'This is the main wildlife stop. Use only the short Cape Vlamingh/Cathedral Rocks boardwalk and viewing platforms, then return to the same bus stop. Scan for long-nosed fur seals, eastern osprey, dolphins and possible November humpbacks.',parking:'Island Explorer Stop 11',anchor:true,tooltipDir:'right',tooltipOffset:[10,0]},
+      {id:'parakeet',day:'sat',focus:'rottnest',name:'Little Parakeet Bay · Stop 18',mapLabel:'5 · Little Parakeet · optional',coord:[-31.990224,115.516600],time:'Optional short north-coast stop',body:'Use this only if everyone still wants another beach. Step off, enjoy the nearby bay briefly and re-board the next service. If the buses are delayed, stay aboard for the scenic north-coast ride and continue directly to Geordie Bay.',parking:'Island Explorer Stop 18',anchor:true,tooltipDir:'top',tooltipOffset:[-62,-18]},
+      {id:'geordie',day:'sat',focus:'rottnest',name:'Geordie Bay · Stop 19',mapLabel:'6 · Geordie Bay lunch',coord:[-31.991148,115.52391],time:'Midday lunch/rest stop',body:'Use Geordie Bay as the seated lunch and rest stop, with the beach and café close together. Re-board in time to reach Thomson Bay before the Island Explorer service ends at 3:00 pm.',parking:'Island Explorer Stop 19',anchor:true,tooltipDir:'top',tooltipOffset:[-18,-18]},
+      {id:'basin',day:'sat',focus:'rottnest',name:'The Basin / Bathurst · optional',mapLabel:'7 · Optional short walk',coord:[-31.9911,115.5381],time:'After 3:00 pm only if the group wants it',body:'This is no longer a required circuit. Choose either a short look at The Basin or Bathurst Lighthouse—not both—only if the friend still feels good. Otherwise remain around Thomson Bay for quokkas, shade, drinks and an unhurried ferry return.',parking:'Walk from Thomson Bay',anchor:true,tooltipDir:'top',tooltipOffset:[34,-18]},
+      {id:'freopark',day:'sat',focus:'fremantle',name:'Esplanade / harbour parking',coord:[-32.0582,115.7448],time:'Sat about 6:25 pm',body:'Collect the car from Victoria Quay and reposition once to a legal evening bay around Esplanade Park or Fishing Boat Harbour. Leave the car here for the compact walking loop and dinner.',parking:'Use a legal signed Esplanade or harbour bay; check the posted evening limit and payment conditions',anchor:true,tooltipDir:'right',tooltipOffset:[9,12]},
+      {id:'bathers',day:'sat',focus:'fremantle',name:'Bathers Beach',coord:[-32.05778,115.74139],time:'First walking stop · about 8 minutes',body:'Walk across Esplanade Park toward the short beachfront promenade. This is the coastal link between Fishing Boat Harbour and Arthur Head; after sunset it is a brief atmosphere and harbour-view stop, not beach time.',parking:'Leave the car at the Esplanade / harbour bay',anchor:true,tooltipDir:'left',tooltipOffset:[-9,12]},
+      {id:'roundhouse',day:'sat',focus:'fremantle',name:'Round House exterior + Arthur Head',coord:[-32.05612,115.74127],time:'About 10 minutes',body:'Climb from Bathers Beach to Arthur Head for the Round House exterior, harbour outlook and the western end of High Street. The building itself closes in the afternoon, so this evening visit is deliberately exterior-only.',parking:'Walking loop from the Esplanade / harbour bay',anchor:true,tooltipDir:'top',tooltipOffset:[0,-10]},
+      {id:'freowestend',day:'sat',focus:'fremantle',name:'West End heritage streets',coord:[-32.0561,115.7444],time:'About 10–12 minutes',body:'Continue east along the western High Street / Henry Street heritage core past the old warehouses and Notre Dame precinct, then turn south toward Marine Terrace and Esplanade Park.',parking:'Walking loop; no second parking move',anchor:true,tooltipDir:'right',tooltipOffset:[9,-10]},
+      {id:'kailis',day:'sat',focus:'fremantle',name:'Fishing Boat Harbour + Kailis',coord:[-32.05882,115.74229],time:'Walk finishes about 7:10 pm · dinner to 8:05 pm',body:'Finish on the Fishing Boat Harbour boardwalk and eat at Kailis Fishmarket Café, 46 Mews Road. Its official site advertises 10:30 am until late. Walk the short distance back to the parked car after dinner.',parking:'Car remains in the signed Esplanade / harbour bay',anchor:true,tooltipDir:'bottom',tooltipOffset:[0,18]},
+      {id:'lancelin',day:'sun',name:'Lancelin Dunes',coord:[-31.0190,115.3310],time:'Sun 10:10–11:30 am',body:'White-dune views and optional sandboarding. Never take the rental car onto the dunes.',parking:'Firm designated/roadside parking; walk the sandy approach',anchor:true},
+      {id:'eastperthfuel',day:'sun',name:'Ampol gift-card refill · East Perth',coord:[-31.948663,115.869483],time:'Sun 6:55–7:05 am',body:'Fill the hybrid completely and pay inside with AmpolCash before breakfast. This official Ampol Foodary is open 24 hours and accepts AmpolCash Digital.',parking:'Ampol Foodary East Perth, 157 Lord Street'},
+      {id:'cervantes',day:'sun',name:'Cervantes · lunch, ice + fuel check',coord:[-30.5010,115.0670],time:'Sun 12:45–1:35 pm',body:'Order Lobster Shack lunch immediately, then buy fresh ice. If the gauge is at or below half, refuel at Liberty Cervantes now; current published hours end around 8:00 pm and there is no fuel inside the Pinnacles.',parking:'Lobster Shack, then a legal service-station/supermarket bay',anchor:true,tooltipDir:'right',tooltipOffset:[9,-20]},
+      {id:'thetis',day:'sun',name:'Lake Thetis Loop · 1.5 km',coord:[-30.5070,115.0700],time:'Sun 1:40–2:15 pm',body:'Easy Class 2 loop. The first 300 m boardwalk passes the best stromatolites; turn back after the boardwalk if behind schedule.',parking:'Hard-packed visitor car park; no toilets',anchor:true,tooltipDir:'left',tooltipOffset:[-9,0]},
+      {id:'pinnacles',day:'sun',name:'Pinnacles sunset + stars',coord:[-30.6030,115.1600],time:'Sun 2:35–8:30 pm',body:'Discovery Centre, 1.5 km Desert View Walk, official 4.5 km drive, golden hour, approximately 6:48 pm sunset, a properly chilled Vietnamese picnic beside the car and near-new-moon stargazing around 8:15 pm. Pack every scrap of waste out.',parking:'Visitor-centre parking and official drive; remain on visitor surfaces',anchor:true},
+      {id:'hangover',day:'sun',name:'Hangover Bay',coord:[-30.6418,115.1487],time:'Sun 4:35–5:15 pm',body:'Short beach/coast stop before returning to the Pinnacles for golden hour. Cut this first if delayed.',parking:'Official day-use parking',anchor:true,tooltipDir:'left',tooltipOffset:[-9,18]},
+      {id:'heirisson',day:'mon',name:'Heirisson Island',coord:[-31.96579,115.88249],time:'Mon 8:00–8:45 am',body:'Walk directly to the southern kangaroo enclosure and river viewpoint. Turn back by 8:35 and be at the car by 8:45; the 40-minute transfer block to the Mint includes CBD traffic, parking and the walk to reception.',parking:'Island car park; conceal all luggage',anchor:true,tooltipDir:'bottom',tooltipOffset:[0,8]},
+      {id:'firestation',day:'mon',name:'CPP Fire Station · first parking',coord:[-31.95501,115.86530],time:'Mon about 9:15 am · leave by 11:05 am',body:'First Monday parking block for the Mint. Record the entry time, start a phone timer and keep the stay below two hours. Normal exit is about 10:40; 11:05 is the practical hard exit if the Mint shop is worthwhile. The current rate is A$5 per hour, so the working allowance is A$10. All luggage remains concealed.',parking:'1 Murray Street / Hay Street entry · open-air pay-by-plate',anchor:true,tooltipDir:'top',tooltipOffset:[0,-12]},
+      {id:'mint',day:'mon',name:'The Perth Mint · fixed earliest session',coord:[-31.95679,115.86946],time:'Mon 9:30–10:30 am · shop buffer optional',body:'Book the earliest 9:30 Discover The Perth Mint session. The 60-minute restoration-period experience includes the live gold pour, world-record gold displays, nuggets and historic melting house. If the shop is genuinely interesting, use the parking buffer and scale down the bells; a bullion purchase needs separate registration and may consume that buffer.',parking:'CPP Fire Station · arrive at reception before 9:30 am',anchor:true,tooltipDir:'right',tooltipOffset:[9,0]},
+      {id:'pcecpark',day:'mon',name:'CPP Convention Centre · second parking',coord:[-31.95690,115.85400],time:'Mon about 10:50 am–12:40 pm',body:'Second Monday parking block, directly beside Elizabeth Quay Station. Target less than two hours at A$8 per hour, or about A$16. Return by 12:30 so your wife can collect her cabin bag and leave for the station at 12:40.',parking:'21 Mounts Bay Road · undercover pay station',anchor:true,tooltipDir:'left',tooltipOffset:[-9,-12]},
+      {id:'elizabethquay',day:'mon',name:'Elizabeth Quay + optional bells',coord:[-31.95835,115.85735],time:'Mon after Mint–12:30 pm',body:'Priority order: early lunch, waterfront, then bells. Use the free Bell Tower exterior, bridge and viewpoints by default. Attempt the 11:00 Bell Chiming only if the Mint, shop and parking move finish on time. Scale this stop down first if anyone is tired or the Mint shop is worthwhile. Return to the car by 12:30.',parking:'Car remains at CPP Convention Centre · keep total stay below two hours',anchor:true,tooltipDir:'left',tooltipOffset:[-9,0]},
+      {id:'t2',day:'mon',name:'Perth Airport T2 · wife by train',coord:[-31.9430,115.9742],time:'Mon expected about 1:25–1:50 pm · 2:00 pm latest target',body:'At 12:40 your wife takes her cabin bag and walks about five minutes to Elizabeth Quay Station. Ride one stop to Perth Underground, follow the internal connection to Perth Station, then take the Airport Line towards High Wycombe to Airport Central. Weekday lunchtime frequency is about 15 minutes; Perth to Airport Central takes 18 minutes. The 2026 contactless Go Anywhere fare is A$3.50—tag on and off with the same card or device. If there is a material disruption, use Uber from the Quay.',parking:'No airport parking required; T2 is reached from Airport Central via the Skybridge',anchor:true,tooltipDir:'right',tooltipOffset:[9,18]},
+      {id:'aviation',day:'mon',name:'Aviation Heritage Museum · walk in',coord:[-32.04907,115.85888],time:'Mon target about 1:10–1:20 pm to 3:45 pm',body:'Keep this deliberately unbooked. Ordinary adult admission is currently A$17.50 and sold at the door. Allow up to about 2 hours 35 minutes for the Lancaster, Spitfire, Catalina, Dakota, Canberra and Tornado; last entry is 3:00 pm and closing is 4:00 pm. Check live T1 traffic at 3:30 pm and leave sooner if the route exceeds about 40 minutes; 3:45 pm is the hard departure.',parking:'Free onsite visitor parking',anchor:true},
+      {id:'airportview',day:'mon',name:'Airport viewing platform · fallback',coord:[-31.92557,115.96775],time:'Use only if Bull Creek no longer fits',body:'Free, official Dunreath Drive viewing platform overlooking Runway 03/21. November opening is 6:30 am–7:00 pm. This is the low-risk fallback if traffic is poor or either traveller does not want the museum; its value depends on live runway activity.',parking:'Free onsite parking; check live navigation to T1 before lingering',tooltipDir:'right',tooltipOffset:[9,-8]}
+    ];
+    const rottnestBusOutbound=[[-31.995696,115.541858],[-31.997236,115.538291],[-31.998426,115.533841],[-32.000243,115.526939],[-32.002639,115.52091],[-32.004334,115.514467],[-32.010446,115.507489],[-32.010971,115.505449],[-32.013,115.501097],[-32.015362,115.496195],[-32.013179,115.491279],[-32.014309,115.478694],[-32.015641,115.471291],[-32.017276,115.467071],[-32.020357,115.45825],[-32.022895,115.450359],[-32.022247,115.451061],[-32.019877,115.462465],[-32.016233,115.467746],[-32.015729,115.473173],[-32.014528,115.482527],[-32.009505,115.488613],[-32.005228,115.487741],[-32.003112,115.488844],[-32.001302,115.490052],[-31.999995,115.49398],[-31.996603,115.497102],[-31.99555,115.499824],[-31.995075,115.503265],[-31.99329,115.507412],[-31.992136,115.511963],[-31.990799,115.51664],[-31.990224,115.5166]];
+    const rottnestBusReturn=[[-31.990224,115.5166],[-31.990835,115.5169],[-31.992411,115.519888],[-31.992906,115.522199],[-31.99308,115.523134],[-31.993788,115.523883],[-31.9936,115.526666],[-31.99542,115.527913],[-31.995508,115.532591],[-31.997543,115.534928],[-31.997438,115.537687],[-31.996471,115.539739],[-31.996624,115.541317],[-31.995767,115.541829],[-31.995696,115.541858]];
+    const rottnestBusLoop=[...rottnestBusOutbound,...rottnestBusReturn.slice(1)];
+    const routes=[
+      {day:'thu',mode:'drive',coords:[[-31.9403,115.9672],[-31.89463,115.89491],[-31.917488,115.913246],[-31.9403,115.9672],[-31.9600,115.8440],[-31.917488,115.913246]]},
+      {day:'fri',mode:'drive',coords:[[-31.917488,115.913246],[-33.31823,115.63587],[-33.6470,115.3440],[-33.6676,115.3446],[-34.07909,115.02937],[-34.1040,115.0270],[-33.97653,114.98669],[-33.94447,115.07492],[-31.917488,115.913246]]},
+      {day:'sat',mode:'drive',coords:[[-31.917488,115.913246],[-32.0518,115.7442]]},
+      {day:'sat',mode:'walk',coords:[[-32.0518,115.7442],[-32.05254,115.74221]]},
+      {day:'sat',mode:'ferry',focus:'transfer',coords:[[-32.05254,115.74221],[-31.9950,115.5480]]},
+      {day:'sat',mode:'bus',focus:'rottnest',coords:rottnestBusLoop},
+      {day:'sat',mode:'walk',focus:'rottnest',coords:[[-32.010971,115.505449],[-32.007291,115.504144],[-32.010971,115.505449]]},
+      {day:'sat',mode:'walk',focus:'rottnest',coords:[[-32.022895,115.450359],[-32.023546,115.450745],[-32.022895,115.450359]]},
+      {day:'sat',mode:'ferry',focus:'transfer',coords:[[-31.995696,115.541858],[-32.05254,115.74221]]},
+      {day:'sat',mode:'walk',coords:[[-32.05254,115.74221],[-32.0518,115.7442]]},
+      {day:'sat',mode:'drive',coords:[[-32.0518,115.7442],[-32.0582,115.7448]]},
+      {day:'sat',mode:'walk',focus:'fremantle',coords:[[-32.0582,115.7448],[-32.05778,115.74139],[-32.05612,115.74127],[-32.0561,115.7444],[-32.0572,115.7451],[-32.0582,115.7448],[-32.05882,115.74229],[-32.0582,115.7448]]},
+      {day:'sat',mode:'drive',coords:[[-32.0582,115.7448],[-31.917488,115.913246]]},
+      {day:'sun',mode:'drive',coords:[[-31.917488,115.913246],[-31.948663,115.869483],[-31.0190,115.3310],[-30.5010,115.0670],[-30.5070,115.0700],[-30.6030,115.1600],[-30.6418,115.1487],[-30.6030,115.1600],[-31.917488,115.913246]]},
+      {day:'sun',mode:'trail',coords:[[-30.6030,115.1600],[-30.6000,115.1540],[-30.6070,115.1500],[-30.6120,115.1580],[-30.6030,115.1600]]},
+      {day:'mon',mode:'drive',coords:[[-31.917488,115.913246],[-31.96579,115.88249],[-31.95501,115.86530]]},
+      {day:'mon',mode:'walk',coords:[[-31.95501,115.86530],[-31.95679,115.86946],[-31.95501,115.86530]]},
+      {day:'mon',mode:'drive',coords:[[-31.95501,115.86530],[-31.95690,115.85400]]},
+      {day:'mon',mode:'walk',coords:[[-31.95690,115.85400],[-31.95835,115.85735],[-31.95690,115.85400]]},
+      {day:'mon',mode:'train',coords:[[-31.95835,115.85735],[-31.95165,115.86055],[-31.9375,115.9740],[-31.9430,115.9742]]},
+      {day:'mon',mode:'drive',coords:[[-31.95690,115.85400],[-32.04907,115.85888],[-31.9403,115.9672]]}
+    ];
+    const viewDays={metro:['thu','mon'],south:['fri'],rottnest:['sat'],fremantle:['sat'],north:['sun']};
+    const viewBounds={
+      all:[[-34.18,114.90],[-30.42,116.08]],
+      metro:[[-32.12,115.70],[-31.79,116.08]],
+      south:[[-34.16,114.92],[-31.84,116.00]],
+      rottnest:[[-32.032,115.438],[-31.984,115.552]],
+      fremantle:[[-32.0612,115.7380],[-32.0535,115.7472]],
+      north:[[-31.08,115.00],[-30.43,115.39]]
+    };
+    const map=L.map('map',{zoomControl:true,preferCanvas:true});
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+      maxZoom:19,
+      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    const routeLayer=L.layerGroup().addTo(map);
+    const markerLayer=L.layerGroup().addTo(map);
+    let currentDay='all',currentView='all';
+
+    function allowedDay(day){
+      if(currentDay!=='all') return day===currentDay;
+      return !viewDays[currentView]||viewDays[currentView].includes(day);
+    }
+    function allowedStop(stop){
+      if(currentView==='fremantle') return stop.focus==='fremantle';
+      if(currentView==='rottnest') return stop.focus==='rottnest';
+      if(currentDay!=='all') return stop.day===currentDay||stop.days?.includes(currentDay);
+      return !viewDays[currentView]||viewDays[currentView].includes(stop.day)||stop.days?.some(day=>viewDays[currentView].includes(day));
+    }
+    function allowedRoute(route){
+      if(currentView==='fremantle') return route.focus==='fremantle';
+      if(currentView==='rottnest') return route.focus==='rottnest';
+      return allowedDay(route.day);
+    }
+    function dash(mode){ return mode==='ferry'?'10 8':mode==='bus'?'9 6':mode==='trail'?'3 7':mode==='walk'?'5 6':mode==='train'?'2 6':null; }
+    function summary(){
+      const plan=dayPlans[currentDay];
+      document.getElementById('summary-title').textContent=plan.title;
+      document.getElementById('summary-text').textContent=plan.text;
+      document.getElementById('timeline').innerHTML=plan.items.map(item=>`<div><time>${item[0]}</time><span>${item[1]}</span></div>`).join('');
+      document.getElementById('detail').innerHTML='<strong>Select a stop</strong><small>Click a marker for what to do, the allocated time and parking or access notes.</small>';
+    }
+    function escapeHtml(value){
+      return value.replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+    }
+    function renderInline(value){
+      let text=escapeHtml(value);
+      text=text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+      text=text.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+      text=text.replace(/`([^`]+)`/g,'<code>$1</code>');
+      return text;
+    }
+    function isTableDivider(line){
+      return /^\s*\|?\s*:?-{3,}/.test(line)&&line.includes('|');
+    }
+    function tableCells(line){
+      return line.trim().replace(/^\||\|$/g,'').split('|').map(cell=>cell.trim());
+    }
+    function renderMarkdown(lines){
+      const output=[];
+      let index=0;
+      while(index<lines.length){
+        const line=lines[index].trim();
+        if(!line){ index+=1; continue; }
+        const heading=line.match(/^(#{3,4})\s+(.+)$/);
+        if(heading){
+          const level=heading[1].length;
+          output.push(`<h${level}>${renderInline(heading[2])}</h${level}>`);
+          index+=1;
+          continue;
+        }
+        if(line.includes('|')&&index+1<lines.length&&isTableDivider(lines[index+1])){
+          const headers=tableCells(lines[index]);
+          index+=2;
+          const rows=[];
+          while(index<lines.length&&lines[index].includes('|')&&lines[index].trim()){
+            rows.push(tableCells(lines[index])); index+=1;
+          }
+          output.push(`<div class="table-wrap"><table><thead><tr>${headers.map(cell=>`<th>${renderInline(cell)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map(cell=>`<td>${renderInline(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+          continue;
+        }
+        if(/^[-*] /.test(line)){
+          const items=[];
+          while(index<lines.length&&/^\s*[-*] /.test(lines[index])){
+            items.push(lines[index].replace(/^\s*[-*] /,'')); index+=1;
+          }
+          output.push(`<ul>${items.map(item=>`<li>${renderInline(item)}</li>`).join('')}</ul>`);
+          continue;
+        }
+        if(/^\d+\. /.test(line)){
+          const items=[];
+          while(index<lines.length&&/^\s*\d+\. /.test(lines[index])){
+            items.push(lines[index].replace(/^\s*\d+\. /,'')); index+=1;
+          }
+          output.push(`<ol>${items.map(item=>`<li>${renderInline(item)}</li>`).join('')}</ol>`);
+          continue;
+        }
+        const paragraph=[line]; index+=1;
+        while(index<lines.length&&lines[index].trim()&&!lines[index].includes('|')&&!/^\s*[-*] /.test(lines[index])&&!/^\s*\d+\. /.test(lines[index])){
+          paragraph.push(lines[index].trim()); index+=1;
+        }
+        output.push(`<p>${renderInline(paragraph.join(' '))}</p>`);
+      }
+      return output.join('');
+    }
+    function parseDaySections(markdown){
+      const keyByName={Thursday:'thu',Friday:'fri',Saturday:'sat',Sunday:'sun',Monday:'mon'};
+      const lines=markdown.replace(/\r/g,'').split('\n');
+      const sections=[];
+      let active=null;
+      lines.forEach(line=>{
+        const match=line.match(/^## (Thursday|Friday|Saturday|Sunday|Monday)\b(.*)$/);
+        if(match){
+          if(active) sections.push(active);
+          active={key:keyByName[match[1]],title:`${match[1]}${match[2]}`,lines:[]};
+        }else if(/^## /.test(line)){
+          if(active){ sections.push(active); active=null; }
+        }else if(active){ active.lines.push(line); }
+      });
+      if(active) sections.push(active);
+      return sections;
+    }
+    function parseNamedSection(markdown,title){
+      const lines=markdown.replace(/\r/g,'').split('\n');
+      const heading=`## ${title}`;
+      const start=lines.findIndex(line=>line.trim()===heading);
+      if(start<0) return null;
+      let end=start+1;
+      while(end<lines.length&&!/^## /.test(lines[end])) end+=1;
+      return {title,lines:lines.slice(start+1,end)};
+    }
+    function syncDayDetails(day,scrollToPlan=false){
+      const plans=[...document.querySelectorAll('.day-plan')];
+      if(!plans.length) return;
+      plans.forEach(plan=>{
+        const selected=day!=='all'&&plan.dataset.day===day;
+        plan.classList.toggle('is-selected',selected);
+        if(day!=='all') plan.open=selected;
+      });
+      const target=day==='all' ? plans[0] : document.querySelector(`.day-plan[data-day="${day}"]`);
+      if(day==='all'&&!plans.some(plan=>plan.open)) plans[0].open=true;
+      if(scrollToPlan&&target){ target.open=true; target.scrollIntoView({behavior:'smooth',block:'start'}); }
+      renderPanelDetail(day);
+    }
+    function renderPanelDetail(day){
+      const panel=document.getElementById('panel-day-detail');
+      const timeline=document.getElementById('timeline');
+      if(day==='all'){
+        panel.hidden=true;
+        panel.innerHTML='';
+        timeline.hidden=false;
+        return;
+      }
+      const source=document.querySelector(`.day-plan[data-day="${day}"] .day-body`);
+      if(!source){
+        panel.hidden=true;
+        timeline.hidden=false;
+        return;
+      }
+      const copy=source.cloneNode(true);
+      const firstParagraph=copy.querySelector('p');
+      if(firstParagraph&&firstParagraph.textContent.trim().startsWith('Purpose:')) firstParagraph.remove();
+      panel.innerHTML='<div class="detail-heading">Minute-by-minute plan</div>';
+      panel.append(copy);
+      panel.hidden=false;
+      timeline.hidden=true;
+      panel.scrollTop=0;
+    }
+    async function loadDetailedItinerary(){
+      const status=document.getElementById('itinerary-status');
+      const target=document.getElementById('day-plans');
+      const supporting=document.getElementById('supporting-plans');
+      try{
+        const response=await fetch(`perth-itinerary.md?v=${Date.now()}`,{cache:'no-store'});
+        if(!response.ok) throw new Error(`HTTP ${response.status}`);
+        const markdown=await response.text();
+        const sections=parseDaySections(markdown);
+        if(sections.length!==5) throw new Error('Expected five daily sections');
+        const labels={thu:'Law Walk + sunset',fri:'Margaret River super-day',sat:'Rottnest + Fremantle',sun:'Sunset + stargazing',mon:'Aviation + flights'};
+        target.innerHTML=sections.map((section,index)=>`<details class="day-plan" data-day="${section.key}" style="--day-colour:${colours[section.key]}" ${index===0?'open':''}><summary><span>${renderInline(section.title)}</span><span class="day-label">${labels[section.key]}</span></summary><div class="day-body">${renderMarkdown(section.lines)}</div></details>`).join('');
+        const extras=[
+          {section:parseNamedSection(markdown,'Food logistics for the whole trip'),label:'Packing, cold chain and meals',open:true},
+          {section:parseNamedSection(markdown,'Fuel and range plan'),label:'Full-tank starts · compulsory rural refills',open:true},
+          {section:parseNamedSection(markdown,'Booking status and final checks'),label:'Booked anchors · optional purchases · final checks',open:true}
+        ].filter(item=>item.section);
+        supporting.innerHTML=extras.map(item=>`<details class="support-plan" ${item.open?'open':''}><summary><span>${renderInline(item.section.title)}</span><span class="day-label">${item.label}</span></summary><div class="day-body">${renderMarkdown(item.section.lines)}</div></details>`).join('');
+        status.textContent='Loaded from perth-itinerary.md';
+        syncDayDetails(currentDay);
+      }catch(error){
+        status.textContent='Detailed itinerary could not be loaded';
+        target.innerHTML='<div class="itinerary-error">Serve this folder over HTTP and keep <strong>perth-itinerary.md</strong> beside this page. The map remains available above.</div>';
+        supporting.innerHTML='';
+      }
+    }
+    function render(){
+      routeLayer.clearLayers(); markerLayer.clearLayers();
+      const ferryGuide=document.getElementById('ferry-parking-guide');
+      const referenceGallery=document.getElementById('reference-gallery');
+      const referenceQuay=document.getElementById('reference-quay');
+      const referenceAirport=document.getElementById('reference-airport');
+      const wholeTrip=currentDay==='all'&&currentView==='all';
+      const airportRelevant=currentDay==='thu'||currentDay==='mon'||(currentDay==='all'&&currentView==='metro');
+      const quayRelevant=currentDay==='all'&&(currentView==='rottnest'||currentView==='fremantle');
+      ferryGuide.hidden=currentDay!=='sat';
+      referenceQuay.hidden=!(wholeTrip||quayRelevant);
+      referenceAirport.hidden=!(wholeTrip||airportRelevant);
+      referenceGallery.hidden=referenceQuay.hidden&&referenceAirport.hidden;
+      routes.filter(allowedRoute).forEach(r=>L.polyline(r.coords,{
+        color:r.mode==='bus'?'#5aa9e6':r.mode==='trail'?'#49bd73':r.mode==='walk'?'#f5c451':colours[r.day],
+        weight:r.mode==='trail'?5:4,opacity:.9,dashArray:dash(r.mode),lineCap:'round',lineJoin:'round'
+      }).addTo(routeLayer));
+      stops.filter(allowedStop).forEach(s=>{
+        const activeColour=s.kind==='base'?colours.base:(currentDay!=='all'&&s.days?.includes(currentDay)?colours[currentDay]:colours[s.day]);
+        const marker=L.circleMarker(s.coord,{radius:s.kind==='base'?9:7,color:'#141414',weight:3,fillColor:activeColour,fillOpacity:1}).addTo(markerLayer);
+        marker.bindPopup(`<strong>${s.name}</strong><br>${s.time}<br>${s.body}<br><em>Parking/access: ${s.parking}</em>`);
+        const allLabels=['hotel','t1','busselton','margaret','thomson','lancelin','pinnacles'];
+        const showLabel=currentDay!=='all' ? (s.anchor||s.kind==='base') : currentView==='all' ? allLabels.includes(s.id) : (s.anchor||s.kind==='base');
+        if(showLabel) marker.bindTooltip(s.mapLabel||s.name,{permanent:true,direction:s.tooltipDir||'right',offset:s.tooltipOffset||[9,0],className:'route-label'});
+        marker.on('click',()=>{
+          document.getElementById('detail').innerHTML=`<strong>${s.name} · ${s.time}</strong><small>${s.body}<br><br>Parking/access: ${s.parking}.</small>`;
+        });
+      });
+      summary();
+    }
+    function fit(){
+      const visibleCoords=[];
+      routes.filter(allowedRoute).forEach(route=>visibleCoords.push(...route.coords));
+      stops.filter(allowedStop).forEach(stop=>visibleCoords.push(stop.coord));
+      const useRegionalFocus=currentView!=='all'&&viewBounds[currentView];
+      const bounds=useRegionalFocus ? L.latLngBounds(viewBounds[currentView]) : visibleCoords.length ? L.latLngBounds(visibleCoords) : L.latLngBounds(viewBounds[currentView]);
+      const focusMaxZoom=currentView==='fremantle'?16:currentView==='rottnest'?14:12;
+      const focusPadding=currentView==='rottnest'?[14,14]:[28,28];
+      map.fitBounds(bounds,{padding:focusPadding,maxZoom:focusMaxZoom});
+    }
+    document.getElementById('day').addEventListener('change',e=>{
+      currentDay=e.target.value;
+      const byDay={thu:'metro',fri:'south',sat:'rottnest',sun:'north',mon:'metro'};
+      if(currentDay!=='all'){currentView=byDay[currentDay];document.getElementById('view').value=currentView;}
+      render(); fit(); syncDayDetails(currentDay);
+    });
+    document.getElementById('view').addEventListener('change',e=>{
+      currentView=e.target.value;
+      render(); fit(); syncDayDetails(currentDay);
+    });
+    document.getElementById('fit').addEventListener('click',fit);
+    document.getElementById('details-jump').addEventListener('click',()=>syncDayDetails(currentDay,true));
+    render(); fit(); loadDetailedItinerary();
+  </script>
+</body>
+</html>
