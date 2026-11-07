@@ -182,6 +182,9 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 
 **Purpose:** keep the northern road trip enjoyable after two hard days: a proper breakfast, an informed activity decision at Lancelin, a proper lunch, low-walking coastal stops, one continuous Pinnacles visit through sunset and a proper dinner. Stargazing is removed because the friend is not interested.
 
+- **Lancelin allocation:** **1 hour 20 minutes planned** at the dunes, from 10:10–11:30 am; 11:45 am is the absolute exit. A free look needs about 45–60 minutes, the 4WD bus needs about 60–75 minutes including check-in, and a nominal 30-minute quad/buggy normally needs about 60–90 minutes once briefing and waiting are included.
+- **Pinnacles allocation:** **3 hours 15 minutes planned**, from 3:40–6:55 pm. That comprises roughly 25–45 minutes in the Discovery Centre and about 2½ hours for the accessible lookout, 4.5 km drive loop, pull-offs, golden hour and sunset. Without waiting for sunset, a worthwhile compact visit is about 1½–2 hours.
+
 | Time | Plan | What to do |
 |---|---|---|
 | 6:50–7:15 am | Drive about 17 km from Bayswater to D&Y Banh Mi Cafe | The tank is already full, so go directly to **130B Mounts Bay Road**. Check the gauge and dashboard range before departure; carry water, sunscreen, closed shoes and long pants in case anyone chooses a vehicle activity. |
@@ -189,19 +192,46 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 | 8:00–9:45 am | Drive approximately 135 km to Lancelin town | Split the drive if either authorised driver is tired. Do not take the rental hybrid onto sand or any off-road track. |
 | 9:45–10:00 am | **Toilets and quick gauge check in Lancelin** | Use town/roadhouse facilities because there are no toilets or drinking water at the dunes. Refuel only if the gauge or range is unexpectedly poor. |
 | 10:00–10:10 am | Drive to the main Lancelin Sand Dunes car park | Park only on the firm designated visitor area off Beacon Road. Hidden limestone, soft sand and moving off-road vehicles make the dunes unsuitable for the rental car. |
-| 10:10–11:30 am | **Lancelin on-arrival decision window** | First look at the dunes and operators together. Choose the free viewpoint/sandboard option, the 11:00 am 4WD bus if seats exist, or a short Mr Xtreme ride if genuinely available. **11:30 am is the target departure; 11:45 am is the hard limit.** The two-hour Perth Quad tour does not fit without deleting lunch or later stops. Full comparison immediately below. |
+| 10:10–11:30 am | **Lancelin on-arrival decision window — 1 hr 20 min planned** | First look at the dunes and operators together. Choose the free viewpoint/sandboard option, the 11:00 am 4WD bus if seats exist, or a short Mr Xtreme ride if genuinely available. **11:30 am is the target departure; 11:45 am is the hard limit.** The two-hour Perth Quad tour does not fit without deleting lunch or later stops. Full comparison immediately below. |
 | 11:30 am–12:45 pm | Drive approximately 85 km to Cervantes | Default branch: go to Lobster Shack. If the group instead chooses a seated 3 Emus lunch in Lancelin, eat by about 11:40 am–12:40 pm, then drive to Cervantes and rejoin the schedule at Lake Thetis around 2:00 pm. |
-| 12:45–1:50 pm | **Proper lunch at Lobster Shack** | This is the signature regional choice, although it is counter-service rather than formal table service. Known fixed-price choices include lobster tacos around A$32, lobster roll around A$36, fish and chips around A$34 and chowder around A$38; whole lobster/platter pricing is market price, so ask before ordering. The kitchen currently lists 11:00 am–3:00 pm. |
+| 12:45–1:50 pm | **Proper lunch decision** | Default is Lobster Shack, but the complete Lancelin/Cervantes comparison below is part of the plan. If eating in Lancelin, finish by 12:40–12:45 pm. If eating in Cervantes, finish by about 1:50 pm; a slower meal consumes Lake Thetis or Hangover Bay, not the Discovery Centre. |
 | 1:50–2:00 pm | Fuel, water and toilet decision in Cervantes | Refuel only if at or below half a tank; there is no fuel in Nambung National Park. No ice purchase is needed because dinner is now at a restaurant. |
 | 2:00–2:25 pm | **Lake Thetis stromatolite boardwalk** | Drive about 3 km, then use the first approximately 300 m of boardwalk for the best stromatolite views. The full 1.5 km loop is optional only if everyone wants it and the day is on time. This is the first stop to shorten after a late dune activity. |
 | 2:25–2:45 pm | Drive approximately 23 km to Hangover Bay | Follow sealed roads and signed park access. Pay/retain the Nambung vehicle-entry receipt when required. |
 | 2:45–3:25 pm | **Hangover Bay** | Short beach and coastal reset with minimal compulsory walking. Leave earlier if the Discovery Centre closing time is at risk. |
 | 3:25–3:40 pm | Drive approximately 8 km to Pinnacles Desert | This begins one continuous Pinnacles visit; there is no unnecessary exit and re-entry. |
 | 3:40–4:25 pm | **Pinnacles Desert Discovery Centre** | See the compact geology, ecology and cultural displays, then use the toilets. The centre closes around 4:30 pm, so do this before the outdoor circuit. Twenty to thirty minutes is normally enough; leave earlier if it feels repetitive. |
-| 4:25–6:55 pm | **Pinnacles lookout, official 4.5 km drive loop and sunset** | Friend can use only the first accessible approximately 300 m path and the car-based pull-offs; the full 1.5 km sandy walk is optional. Drive the official one-way tourist loop slowly, stop only in marked pull-offs, then choose one safe formation group for golden hour. Sunset is approximately 6:48 pm. If thick cloud removes the light, leave early rather than waiting for its own sake. |
-| 6:55–7:15 pm | Drive approximately 20 km to Pinnacles Edge Resort, Cervantes | **Phone 08 9652 7145 during breakfast or from Lancelin and request a 7:15 pm table for three.** The restaurant recommends reservations and currently takes last orders at 8:00 pm. If it cannot take the booking, use Cervantes Country Club as the local fallback and confirm its kitchen timing by phone. |
-| 7:15–8:20 pm | **Proper dinner at Pinnacles Edge** | This is deliberately different from Lobster Shack: seated dinner, with options including emu dumplings (listed around A$18 for five), grilled kangaroo or porterhouse (around A$44 on the current menu). Confirm the live menu on arrival. Skip alcohol for both authorised drivers. |
-| 8:20–about 10:30 pm | Drive approximately 200 km to Bayswater | Swap authorised drivers if needed. This is night driving through wildlife country: reduce speed when visibility demands it, scan the verges and never swerve sharply for an animal. The Sunday hotel voucher will probably expire unused, which is preferable to rushing sunset or dinner. |
+| 4:25–6:55 pm | **Pinnacles lookout, official 4.5 km drive loop and sunset — 2 hr 30 min outdoors** | Friend can use only the first accessible approximately 300 m path and the car-based pull-offs; the full 1.5 km sandy walk is optional. Drive the official one-way tourist loop slowly, stop only in marked pull-offs, then choose one safe formation group for golden hour. Sunset is approximately 6:48 pm. If thick cloud removes the light, leave early rather than waiting for its own sake. |
+| 6:55 pm onward | **Proper dinner decision** | Default: drive about 20 km to a 7:15 pm Pinnacles Edge reservation. Alternatives are Cervantes Bar & Bistro, The Club Cervantes, a quick Sea Breeze meal, or driving about 1 hour 35–45 minutes to Yanchep Beach Club. Use the comparison below; do not assume the Bayswater hotel kitchen remains possible after sunset. |
+| About 7:15–8:20 pm | **Cervantes dinner branch** | Eat for about one hour, then begin the approximately 200 km return. Both authorised drivers should avoid alcohol. A Yanchep dinner instead starts around 8:30–8:45 pm and splits the return drive, but pushes the hotel arrival later. |
+| 8:20–about 10:30 pm | Drive approximately 200 km to Bayswater | This timing assumes a Cervantes dinner. Swap authorised drivers if needed. This is night driving through wildlife country: reduce speed when visibility demands it, scan the verges and never swerve sharply for an animal. The Sunday hotel voucher will probably expire unused, which is preferable to rushing sunset or dinner. |
+
+### Sunday lunch decision card
+
+These are the route-relevant choices, not an instruction to visit several. Pick **one**.
+
+| Lunch option | Opening/timing that fits | Food and service | Effect on the afternoon |
+|---|---|---|---|
+| **Lobster Shack, Cervantes — default signature choice** | Kitchen 11:00 am–3:00 pm; target **12:45–1:50 pm** | Beachfront counter service rather than formal table service. Fixed-price choices currently include lobster tacos about A$32, lobster roll A$36, fish and chips A$34 and chowder A$38; whole lobster and platters are market price, so ask first. | Best if local lobster is the priority. It naturally precedes Lake Thetis. Allow about 60 minutes; if the queue is long, order a fixed-price item rather than losing the Discovery Centre. |
+| **3 Emus, Lancelin Sands Hotel** | Weekend all-day bar menu 12:00–8:00 pm; eat roughly **11:55 am–12:40 pm** and leave by 12:45 pm | Seated hotel restaurant/bar with ocean views. The venue advertises dishes including squid, prawn/scallop medley and house-smoked emu carpaccio, but the emu item may not be on the daytime bar menu—ask before sitting down. | Best if a seated lunch matters more than lobster. It delays arrival in Cervantes to around 2:00 pm but still works if Lake Thetis stays short. |
+| **Endeavour Tavern, Lancelin** | Opens 11:00 am; lunch 11:30 am–2:00 pm; **no booking required**. Target 11:35 am–12:30 pm. | Large beachside beer garden; casual pub lunch, pizza and fish and chips. More dependable as a spontaneous walk-in than a small restaurant. | Lowest-friction Lancelin choice. Leave by 12:30–12:40 pm and retain most of the afternoon; no reason for the drivers to order alcohol. |
+| **Cervantes Bar & Bistro** | Listed for meals 12:00–10:00 pm Wednesday–Sunday; target **12:45–1:55 pm**. Bookings recommended in peak periods. | Proper pub/bistro meal with local lobster, squid, mussels and snapper plus beef, chicken, curries and nasi goreng. | Best broad-menu proper lunch for mixed tastes. Its slower service can consume Lake Thetis or part of Hangover Bay; ask the wait time before ordering. |
+| **The Club Cervantes** | Current club site says kitchen daily from 11:00 am–late; target **12:45–1:50 pm**. A separate local visitor listing shows a narrower Sunday lunch window, so phone **08 9652 7054** if choosing it. | Very large casual club with local lobster, snapper and dhufish plus standard mains and share plates; online table booking is available. | Good capacity and mixed menu. Prefer it if Lobster Shack's queue/market pricing is unattractive. |
+| **Seashells Cafe or Sea Breeze Cafe, Cervantes — quick fallbacks** | Seashells serves daily breakfast/lunch; Sea Breeze is locally listed around 10:00 am–8:00 pm subject to seasonal change. Target **12:45–1:35 pm**. | Seashells is a beachfront cafe; Sea Breeze is simple fish and chips, pizza, burgers and rolls. | Use only when the group wants faster/cheaper food or the proper venues are full. These protect Lake Thetis and Hangover Bay but are less of a destination meal. |
+
+### Sunday dinner decision card
+
+All timings assume the group leaves the Pinnacles at about **6:55 pm**, immediately after sunset. Pick **one**.
+
+| Dinner option | Likely timing | Food and service | Trade-off / booking action |
+|---|---|---|---|
+| **Pinnacles Edge / Plougmans @ Argon, Cervantes — default** | Arrive about **7:15 pm**; current last orders 8:00 pm | Proper seated dinner. Current menu includes five emu dumplings A$18, 300 g grilled kangaroo A$44, 300 g porterhouse A$44, seafood and pasta. | Best unique-food match and shortest post-sunset drive. **Reservation recommended/treated locally as essential:** call **08 9652 7145** during breakfast or from Lancelin. Hotel about 10:30 pm after dinner. |
+| **Cervantes Bar & Bistro** | Arrive about **7:15 pm**; meals are listed to 10:00 pm Sunday | Proper bistro with local seafood, lobster and beef plus Asian-influenced dishes. | Most flexible proper Cervantes alternative if Pinnacles Edge is full. Peak-period bookings are recommended; phone and confirm the live kitchen cutoff. |
+| **The Club Cervantes** | Arrive about **7:15 pm**; current club site says daily 11:00 am–late | Large casual club, local fish/lobster and conventional mains; easier for three people with different tastes. | Strong capacity fallback. Published hours conflict with an older local listing, so call **08 9652 7054** before relying on a late order. |
+| **Sea Breeze Cafe, Cervantes — fast fallback** | Arrive about **7:15 pm**; locally listed to 8:00 pm, seasonally variable | Fish and chips, pizza, burgers, rolls; quicker and cheaper, but not the requested special dinner. | Use if no proper table is available. Phone before leaving the Pinnacles because the closing margin is small. |
+| **Yanchep Beach Club — avoid eating twice in Cervantes** | Drive roughly **145 km / 1 hr 35–45 min**; eat about **8:35–9:35 pm**, then 45–55 min to Bayswater | Modern Mediterranean-style beach club and a proper seated meal. Official material lists lunch/dinner to late daily, with the current menu showing 12:00 pm–late Friday–Sunday. | Breaks the return drive and avoids a second Cervantes meal, but everyone waits much longer to eat and the hotel becomes roughly 10:25–10:45 pm. Reserve or call **08 6166 5785** before committing. |
+| **Endeavour Tavern, Lancelin — conditional road-break option** | About 75 minutes from the Pinnacles, so roughly **8:10 pm** arrival | Casual beachside tavern; dinner is advertised “from 5:30 pm,” but no dependable closing/last-order time is published. | Only use after phoning **08 9655 1052** and obtaining a firm late-order confirmation. Otherwise continue to Yanchep or use a confirmed Cervantes table. |
+| **Quality Hotel Bayswater / Sunday voucher** | Direct drive from the Pinnacles reaches the hotel around **9:00 pm** before any traffic stop | Hotel kitchen is officially 11:00 am–9:00 pm, with the practical last-order target around 8:45 pm. | **Not viable after a 6:48 pm sunset.** It becomes possible only by leaving the Pinnacles before sunset, which is poor value. Let the A$25 Sunday voucher expire rather than plan around it. |
 
 ### Lancelin decision card — read this in the car park
 
@@ -280,11 +310,12 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 
 ### Confirm, but do not pay in advance
 
-10. **Hotel parking:** bays are not reserved. Try the accommodation car park, then the hotel's general-use overflow and legal nearby parking. Do not circle repeatedly late at night.
-11. **Rental-car details:** the hybrid is booked; confirm all authorised drivers, excess reduction, exact collection/return times, fuel grade and whether the luggage fits out of sight.
-12. **Chang Thai:** phone from Surfers Point at about **4:45 pm Friday** for a 5:35 pm table or timed takeaway. This is a same-day logistics call, not a booking to make now.
-13. **Flights:** save the Jetstar and Scoot boarding passes when online check-in opens; add your own Tuesday flight and rental-car return timing once confirmed.
-14. **Weather and operations:** check each evening for the next day. B Shed renovations are active and parking is expected to be extremely busy; train maintenance can result in a coach substitution, so confirm Captain Hussey operation at the Visitor Centre. Follow onsite signs and staff instructions.
+10. **Sunday dinner:** if using the recommended Pinnacles Edge option, call **08 9652 7145** during breakfast or from Lancelin for about 7:15 pm. If it is full, phone the chosen alternative before sunset rather than discovering a kitchen cutoff after leaving the park.
+11. **Hotel parking:** bays are not reserved. Try the accommodation car park, then the hotel's general-use overflow and legal nearby parking. Do not circle repeatedly late at night.
+12. **Rental-car details:** the hybrid is booked; confirm all authorised drivers, excess reduction, exact collection/return times, fuel grade and whether the luggage fits out of sight.
+13. **Chang Thai:** phone from Surfers Point at about **4:45 pm Friday** for a 5:35 pm table or timed takeaway. This is a same-day logistics call, not a booking to make now.
+14. **Flights:** save the Jetstar and Scoot boarding passes when online check-in opens; add your own Tuesday flight and rental-car return timing once confirmed.
+15. **Weather and operations:** check each evening for the next day. B Shed renovations are active and parking is expected to be extremely busy; train maintenance can result in a coach substitution, so confirm Captain Hussey operation at the Visitor Centre. Follow onsite signs and staff instructions.
 
 ### No advance booking needed
 
@@ -336,6 +367,11 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 - [Pinnacles Desert official drive](https://exploreparks.dbca.wa.gov.au/site/pinnacles-desert-lookout-and-drive)
 - [Lobster Shack Cervantes kitchen hours](https://www.lobstershack.com.au/contact/)
 - [Pinnacles Edge dinner hours, reservations and menu](https://www.pinnaclesedgeresort.com.au/restaurant/)
+- [Lancelin Sands Hotel / 3 Emus menus and service times](https://www.lancelinsandshotel.com.au/our-facilities/)
+- [Endeavour Tavern lunch hours and walk-in policy](https://www.endeavourtavern.com.au/)
+- [Pinnacles Country dining directory](https://www.visitpinnaclescountry.com.au/see-and-do/where-to-eat)
+- [The Club Cervantes current restaurant hours](https://theclubcervantes.com.au/pinnacles-desert/)
+- [Yanchep Beach Club opening hours](https://yanchepbeachclub.com.au/)
 - [Lancelin 4x4 Adventures bus times and 2026–27 prices](https://www.lancelin4x4adventures.com.au/lancelin-tours/lancelin-sandboarding-product)
 - [Mr Xtreme short quad/buggy prices, bonds and requirements](https://www.mrxtreme.com.au/off-road-activities)
 - [Perth Quad guided-tour times, prices and eligibility](https://www.perthquad.com/lancelinsanddunestours)
