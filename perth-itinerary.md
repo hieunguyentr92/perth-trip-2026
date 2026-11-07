@@ -185,6 +185,12 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 - **Lancelin allocation:** **1 hour 20 minutes planned** at the dunes, from 10:10–11:30 am; 11:45 am is the absolute exit. A free look needs about 45–60 minutes, the 4WD bus needs about 60–75 minutes including check-in, and a nominal 30-minute quad/buggy normally needs about 60–90 minutes once briefing and waiting are included.
 - **Pinnacles allocation:** **up to 3 hours 15 minutes**, from 3:40–6:55 pm. The formations, accessible lookout and 4.5 km drive loop are the essential attraction; sunset is an optional visual upgrade, not the reason for visiting. Complete the core visit first, then decide around **5:45–6:00 pm** whether everyone wants to stay for golden hour and sunset. Without that wait, a worthwhile compact visit is about 1½–2 hours.
 
+### Sunday breakfast and departure choice
+
+- **Later, efficient option — breakfast in the hotel room:** wake at **7:00 am**, use food already in the room and be in the car by **7:50 am**. The hotel kitchen does not serve breakfast at this time. Drive directly to Lancelin, reaching town around **9:30–9:40 am** and the dunes around **9:50–10:00 am** after an optional toilet stop. This is the preferred branch when everyone values sleep more than a cooked breakfast.
+- **Proper Vietnamese breakfast option — D&Y:** retain the original **6:50 am** hotel departure, eat at D&Y from **7:15–8:00 am**, then reach Lancelin town around **9:45 am** and the dunes around **10:10 am**. Choose this only if the group genuinely wants the restaurant breakfast.
+- **Decision rule:** decide before sleeping. Do not wake at 7:00 am and then add D&Y—the later wake works only with breakfast already available in the room.
+
 ### Sunday Google Maps driving sequence
 
 Use the bold wording below as the Google Maps search. The links open the same destination directly; do not navigate to a generic national-park centre point.
@@ -204,11 +210,12 @@ Use the bold wording below as the Google Maps search. The links open the same de
 
 | Time | Plan | What to do |
 |---|---|---|
-| 6:50–7:15 am | Drive about 17 km from Bayswater to D&Y Banh Mi Cafe | The tank is already full with more than 600 km indicated range, so go directly to **130B Mounts Bay Road**. Carry water, sunscreen, closed shoes and long pants in case anyone chooses a vehicle activity. |
-| 7:15–8:00 am | **Proper Vietnamese breakfast at D&Y** | Eat in rather than buying a picnic dinner. Leave by 8:00 am; the long first drive creates the day's useful recovery time. |
-| 8:00–9:45 am | Drive approximately 135 km to Lancelin town | Split the drive if either authorised driver is tired. Do not take the rental hybrid onto sand or any off-road track. |
-| 9:45–10:00 am | **Lancelin town toilet stop** | Use town/roadhouse facilities because there are no toilets or drinking water at the dunes. This is not a fuel stop. |
-| 10:00–10:10 am | Drive to the main Lancelin Sand Dunes car park | Park only on the firm designated visitor area off Beacon Road. Hidden limestone, soft sand and moving off-road vehicles make the dunes unsuitable for the rental car. |
+| **7:00–7:50 am** | **Later branch: wake, room breakfast and prepare** | Use food already in the room; the hotel kitchen is not a breakfast option. Load water, sunscreen, closed shoes and long pants. Leave the hotel by **7:50 am**. |
+| **7:50–about 9:35 am** | **Later branch: drive directly from Bayswater to Lancelin town** | The tank is full with more than 600 km indicated range. Split the drive if either authorised driver is tired. Do not take the rental hybrid onto sand or any off-road track. |
+| 6:50–7:15 am | **D&Y branch only:** drive about 17 km to D&Y Banh Mi Cafe | Use this earlier branch instead of the room breakfast when the group wants a proper Vietnamese breakfast. Go to **130B Mounts Bay Road**. |
+| 7:15–8:00 am | **D&Y branch only:** proper Vietnamese breakfast | Eat in and leave by 8:00 am, then drive approximately 135 km to Lancelin town for about 9:45 am. |
+| About 9:35–9:50 am | **Optional Lancelin town toilet stop** | The later branch reaches town around 9:30–9:40; the D&Y branch around 9:45. Use Harold Park only if needed because there are no toilets or drinking water at the dunes. This is not a fuel stop. |
+| About 9:45–10:10 am | Drive to the main Lancelin Sand Dunes car park | The later branch normally reaches the dunes around 9:50–10:00; the D&Y branch around 10:10. Park only on the firm designated visitor area off Beacon Road. Hidden limestone, soft sand and moving off-road vehicles make the dunes unsuitable for the rental car. |
 | 10:10–11:30 am | **Lancelin on-arrival decision window — 1 hr 20 min planned** | First look at the dunes and operators together. Choose the free viewpoint/sandboard option, the 11:00 am 4WD bus if seats exist, or a short Mr Xtreme ride if genuinely available. **11:30 am is the target departure; 11:45 am is the hard limit.** The two-hour Perth Quad tour does not fit without deleting lunch or later stops. Full comparison immediately below. |
 | 11:30 am–12:45 pm | Drive approximately 85 km to Cervantes | Default branch: go to Lobster Shack. If the group instead chooses a seated 3 Emus lunch in Lancelin, eat by about 11:40 am–12:40 pm, then drive to Cervantes and rejoin the schedule at Lake Thetis around 2:00 pm. |
 | 12:45–1:50 pm | **Proper lunch decision** | Default is Lobster Shack, but the complete Lancelin/Cervantes comparison below is part of the plan. If eating in Lancelin, finish by 12:40–12:45 pm. If eating in Cervantes, finish by about 1:50 pm; a slower meal consumes Lake Thetis or Hangover Bay, not the Discovery Centre. |
