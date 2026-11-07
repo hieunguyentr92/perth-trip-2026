@@ -185,6 +185,23 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 - **Lancelin allocation:** **1 hour 20 minutes planned** at the dunes, from 10:10–11:30 am; 11:45 am is the absolute exit. A free look needs about 45–60 minutes, the 4WD bus needs about 60–75 minutes including check-in, and a nominal 30-minute quad/buggy normally needs about 60–90 minutes once briefing and waiting are included.
 - **Pinnacles allocation:** **up to 3 hours 15 minutes**, from 3:40–6:55 pm. The formations, accessible lookout and 4.5 km drive loop are the essential attraction; sunset is an optional visual upgrade, not the reason for visiting. Complete the core visit first, then decide around **5:45–6:00 pm** whether everyone wants to stay for golden hour and sunset. Without that wait, a worthwhile compact visit is about 1½–2 hours.
 
+### Sunday Google Maps driving sequence
+
+Use the bold wording below as the Google Maps search. The links open the same destination directly; do not navigate to a generic national-park centre point.
+
+| Order | Google Maps destination | Why this exact pin |
+|---|---|---|
+| 1 | [**D&Y Banh Mi Cafe, 130B Mounts Bay Road, Perth WA**](https://www.google.com/maps/search/?api=1&query=D%26Y%20Banh%20Mi%20Cafe%2C%20130B%20Mounts%20Bay%20Road%2C%20Perth%20WA) | Breakfast entrance rather than a generic Mounts Bay Road pin. |
+| 2 | [**Harold Park, Gingin Road, Lancelin WA**](https://www.google.com/maps/search/?api=1&query=Harold%20Park%2C%20Gingin%20Road%2C%20Lancelin%20WA) | Town toilet stop; the dunes themselves have no toilets or drinking water. |
+| 3 | [**Lancelin Sand Dunes Carpark**](https://www.google.com/maps/search/?api=1&query=Lancelin%20Sand%20Dunes%20Carpark%2C%20Beacon%20Road%2C%20Lancelin%20WA) | Enter from **Beacon Road opposite Desert Road** and stop on the firm designated visitor area. Never follow a route that takes the rental car onto sand. |
+| 4A | [**Lobster Shack Cervantes**](https://www.google.com/maps/search/?api=1&query=Lobster%20Shack%20Cervantes) | Default Cervantes lunch. If eating in Lancelin instead, search **3 Emus Restaurant** or **Endeavour Tavern Lancelin**. |
+| 4B | [**Cervantes Bar & Bistro**](https://www.google.com/maps/search/?api=1&query=Cervantes%20Bar%20%26%20Bistro) or [**The Club Cervantes**](https://www.google.com/maps/search/?api=1&query=The%20Club%20Cervantes) | Alternative proper lunch choices; choose only one restaurant. |
+| 5 | [**Lake Thetis Car Park, Cervantes WA**](https://www.google.com/maps/search/?api=1&query=Lake%20Thetis%20Car%20Park%2C%20Cervantes%20WA) | The boardwalk starts from this visitor car park. |
+| 6 | [**Hangover Bay, Nambung WA**](https://www.google.com/maps/search/?api=1&query=Hangover%20Bay%2C%20Nambung%20WA) | Optional coastal buffer stop; cut it first if running late. |
+| 7 | [**Pinnacles Desert Discovery Centre**](https://www.google.com/maps/search/?api=1&query=Pinnacles%20Desert%20Discovery%20Centre%2C%20Nambung%20WA) | Correct visitor-centre car park, toilets, accessible lookout and start of the official drive loop. |
+| 8 | Search the selected dinner venue: **Pinnacles Edge Resort**, **Cervantes Bar & Bistro**, **The Club Cervantes** or **Yanchep Beach Club** | Decide before leaving the Pinnacles; the dinner comparison below controls which destination to use. |
+| 9 | [**Quality Hotel Bayswater**](https://www.google.com/maps/search/?api=1&query=Quality%20Hotel%20Bayswater%2C%20WA) | Final destination after dinner. |
+
 | Time | Plan | What to do |
 |---|---|---|
 | 6:50–7:15 am | Drive about 17 km from Bayswater to D&Y Banh Mi Cafe | The tank is already full with more than 600 km indicated range, so go directly to **130B Mounts Bay Road**. Carry water, sunscreen, closed shoes and long pants in case anyone chooses a vehicle activity. |
