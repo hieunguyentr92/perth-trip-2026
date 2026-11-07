@@ -1,6 +1,6 @@
 # Perth itinerary · 5–10 November 2026
 
-This version uses **Quality Hotel Bayswater** as the four-night base and protects the three headline full-day experiences: **Margaret River, Rottnest Island and the Pinnacles at sunset/starlight**. Thursday and Monday retain the confirmed arrival/departure structure.
+This version uses **Quality Hotel Bayswater** as the four-night base and protects the three headline full-day experiences: **Margaret River, Rottnest Island and the Pinnacles at sunset**. Thursday and Monday retain the confirmed arrival/departure structure.
 
 > **Travel-ready status (updated 5 November 2026):** the hotel and the four timing-critical anchors are booked: **Busselton Underwater Observatory at 10:00 am Friday, Lake Cave at 2:00 pm Friday, Rottnest Express at 7:30 am/5:30 pm Saturday with Island Explorer, and The Perth Mint at 9:30 am Monday**. Keep the confirmations and QR codes downloaded for offline use. Optional stops remain deliberately removable if traffic, weather or fatigue intervenes.
 
@@ -26,8 +26,8 @@ Driving times below are planning estimates and include a small normal-traffic ma
 - **Do one short fresh-food top-up on Thursday:** after collecting the rental car, stop at **MCQ Supermarket, Coventry Village, 243–253 Walter Road West, Morley**. It advertises 8:00 am–8:00 pm daily. Buy about nine sturdy pieces of fruit and any missing bottled water/snacks—not several days of prepared meals.
 - **Cold-food routine:** the booked room lists a refrigerator, microwave and kettle. If its freezer box works, freeze two water bottles overnight and use them as reusable cold packs. Otherwise, buy a **1–2 kg bag of ice** each road morning, double-bag it in the large zip-locks and place some below and above the food. Keep the insulated bag zipped in the air-conditioned passenger cabin, not the boot. Refrigerate perishables immediately after returning to the hotel.
 - **Coffee:** do not buy coffee supplies. Your wife and friend can use the room's complimentary coffee; water is the default road drink.
-- **Water:** start each road day with full bottles. Saturday is now a low-walking bus day, so carry a normal day supply and refill at Thomson Bay; Sunday still needs enough water to remain at the Pinnacles through darkness because there is no dinner stop inside the park.
-- **Hotel credit:** the A$25 credit is date-specific and the hotel kitchen is currently 11:00 am–9:00 pm. Use Thursday's credit during check-in. Do not compromise a safe return drive merely to redeem Friday, Saturday or Sunday's credit.
+- **Water:** start each road day with full bottles. Saturday is now a low-walking bus day, so carry a normal day supply and refill at Thomson Bay. On Sunday, carry at least one litre per person for the dunes and Pinnacles; refill in Cervantes if needed.
+- **Hotel credit:** the A$25 credit is date-specific and the hotel kitchen is currently 11:00 am–9:00 pm, with last food orders around 8:45 pm. Use Thursday's credit during check-in. Sunday's sunset and proper Cervantes dinner mean the Sunday voucher will probably go unused; do not compromise the day or rush the return drive merely to redeem it.
 - **Food-status rule:** packed food is the primary plan where a timed booking, ferry or remote trail makes restaurant service risky. Buy it on the travel morning; no days-ahead food order is required. If meat, pâté, cooked rice or noodles are no longer refrigerator-cold, discard them.
 
 ## Fuel and range plan
@@ -37,7 +37,7 @@ Driving times below are planning estimates and include a small normal-traffic ma
 - **Ampol gift card:** if it is an **AmpolCash physical or digital card**, use it at the two planned Ampol Foodary stops below. Both official location pages explicitly list **AmpolCash Digital Accepted**. Digital cards cannot be used at Pay@Pump, outdoor-payment or unmanned terminals, so pay **inside at the counter**. Ampol permits part-payment with cash or a credit card if the fuel costs more than the remaining card balance. Check the expiry and PIN before leaving Sydney.
 - **Friday:** depart Bayswater with a genuinely full tank. After the Busselton Jetty lunch, fill completely at **Ampol Foodary Busselton, 115 Strelly Street / Busselton Bypass**, pay inside with the gift card and retain the receipt. The station's official page currently lists Friday hours of **5:00 am–10:00 pm** and accepts AmpolCash Digital. This leaves approximately 405 km for the rest of the hybrid's day. Margaret River stations remain the fallback if the Ampol payment fails or the actual car shows abnormal consumption.
 - **Saturday:** the Fremantle driving is light. Note the gauge when returning to Bayswater so Sunday's start is not a surprise.
-- **Sunday:** fill completely before breakfast at **Ampol Foodary East Perth, 157 Lord Street**, which is open 24 hours and explicitly accepts AmpolCash Digital. It sits naturally between Bayswater and D&Y. Lancelin Gull Roadhouse is the morning contingency and Liberty Cervantes is the last planned-town contingency before the Pinnacles; current published information lists the Cervantes fuel outlet only until about **8:00 pm**. Enter the Pinnacles with at least half a tank—there is no fuel inside the park.
+- **Sunday:** the tank was confirmed full on Saturday night, so **do not detour to Ampol East Perth**. Note the gauge and dashboard range before leaving. Lancelin is the first contingency and Cervantes is the last planned-town contingency before the Pinnacles; enter the park with at least half a tank because there is no fuel inside it.
 - **Price versus certainty:** check [WA FuelWatch](https://www.fuelwatch.wa.gov.au/) the evening before, but do not make a long detour to save a few cents per litre. Correct fuel, open hours and a safe range buffer matter more.
 
 ## Thursday 5 November · arrivals, early airport greeting, Kings Park and hotel dinner
@@ -178,40 +178,52 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 - **Luck-dependent bonus:** bottlenose dolphins and migrating humpback whales offshore in November. Do not sacrifice the bus connection or quokka block waiting for them.
 - **Monday extra:** western grey kangaroos at Heirisson Island. With Caversham removed, this short managed-enclosure stop is the itinerary's practical kangaroo opportunity.
 
-## Sunday 8 November · Lancelin, Cervantes, Pinnacles sunset and stars
+## Sunday 8 November · Lancelin dunes, Cervantes and Pinnacles sunset
 
-**Purpose:** preserve the northern road trip and use the exceptional near-new-moon night. The stops are mostly viewpoints and short walks; the late rural return, rather than hiking, is the principal risk.
+**Purpose:** keep the northern road trip enjoyable after two hard days: a proper breakfast, an informed activity decision at Lancelin, a proper lunch, low-walking coastal stops, one continuous Pinnacles visit through sunset and a proper dinner. Stargazing is removed because the friend is not interested.
 
 | Time | Plan | What to do |
 |---|---|---|
-| 6:40–6:55 am | Drive to Ampol Foodary East Perth | Navigate to **157 Lord Street**. It is open 24 hours and lies naturally between Bayswater and the breakfast stop. |
-| 6:55–7:05 am | **Full-tank refill using the Ampol gift card** | Fill completely with the rental car's specified grade and pay inside so AmpolCash Digital can be used. Keep the receipt and use cash/credit for any amount above the gift-card balance. |
-| 7:05–7:20 am | Drive to D&Y Banh Mi Cafe | Use **130B Mounts Bay Road**, which advertises 7:00 am–3:00 pm daily. This modest city detour gives the group a Vietnamese breakfast and a workable fresh dinner for the remote evening. |
-| 7:20–8:00 am | **Vietnamese breakfast + collect the Pinnacles dinner** | Walk in, eat breakfast and buy three portable dinner portions from the ready menu. Bánh mì is simplest; ask for wet vegetables/sauce separately if the shop can do so, then keep all meat/pâté fillings below 5°C in the insulated bag with frozen water bottles or double-bagged ice. Add fruit, Asian snacks, water, a warm layer and a red-light/low-light torch. No advance order is needed. |
-| 8:00–9:50 am | Drive approximately 135 km to Lancelin | The full Sunday tank makes this comfortable; do not skip the next gauge check. |
-| 9:50–10:10 am | **Lancelin fuel and toilet checkpoint** | Use Gull Roadhouse if a top-up is needed. Top up if the gauge is unexpectedly below about three-quarters, the morning fill failed or the dashboard range is abnormal; otherwise use the toilets and continue. |
-| 10:10–11:30 am | **Lancelin Dunes** | Park the rental car on firm designated/roadside parking and walk the final sandy approach. Photograph the white dunes and sandboard if desired. **Never drive the rental car onto the dunes.** |
-| 11:30 am–12:45 pm | Drive approximately 85 km to Cervantes | Indian Ocean Drive; use this as the driver's recovery period rather than adding another beach stop. |
-| 12:45–1:25 pm | **Cervantes lunch at Lobster Shack** | Primary: **Lobster Shack, 37 Catalonia Street**; its kitchen currently operates 11:00 am–3:00 pm. Order at the counter immediately and use the toilets. If the queue cannot deliver food within about 30 minutes, use a quick town takeaway rather than delaying Lake Thetis. |
-| 1:25–1:35 pm | **Refresh the dinner ice and check fuel in Cervantes** | At a service station or supermarket, replace melted ice with a fresh 1–2 kg bag, double-bag it and place it above and below the D&Y dinner. Confirm at least one litre of water per person remains. If the gauge is at or below half, refuel at Liberty Cervantes now; its current published hours end around 8:00 pm and there is no fuel inside the Pinnacles. |
-| 1:35–1:40 pm | Drive approximately 3 km to Lake Thetis | Dedicated visitor parking. |
-| 1:40–2:15 pm | **Lake Thetis Loop Trail, 1.5 km** | Complete the easy Class 2 circuit clockwise. The first 300 m of boardwalk passes the best stromatolites. If delayed or hot, do only that boardwalk out-and-back. |
-| 2:15–2:35 pm | Drive approximately 20 km to Pinnacles Desert | Pay the Nambung National Park vehicle entry fee applicable on the visit date. |
-| 2:35–3:05 pm | Discovery Centre | Do the geology/ecology displays first because the centre closes before sunset. Use toilets and refill water. |
-| 3:05–4:20 pm | **Desert View Walk Trail + first drive loop** | The walk is 1.5 km total: the first 300 m is an accessible concrete path to the lookout, followed by a 1.2 km Class 3 sandy section among the formations. Then begin the official 4.5 km vehicle loop using selected pull-offs. The loop is an official maintained tourist road. |
-| 4:20–4:35 pm | Drive approximately 8 km to Hangover Bay | Leave the desert temporarily while the sun remains high. |
-| 4:35–5:15 pm | **Hangover Bay** | Short beach/coast stop and an early fruit/Asian-snack break. Keep the chilled dinner sealed for after sunset. Skip Hangover Bay first if the day is late. |
-| 5:15–5:30 pm | Return to Pinnacles Desert | Re-enter for the best light; retain the entry receipt/pass as required. |
-| 5:30–6:50 pm | **Golden hour and sunset among the Pinnacles** | Use a small number of official pull-offs and the closest walking areas rather than continuously circling. Sunset is approximately 6:48 pm. No climbing on formations. |
-| 6:50–8:15 pm | **Vietnamese picnic dinner, twilight and initial stargazing** | Check that the insulated bag remained properly cold, then eat the D&Y food beside the car on an official visitor surface. If it is no longer refrigerator-cold, discard the meat/pâté rather than gambling on it. Pack every item of waste back into the car. The moon is only around 1–2% illuminated and sets around 6:00 pm. Astronomical darkness arrives around 8:15 pm; shield phone screens and let eyes adjust. |
-| 8:15–8:30 pm | Final star view and driver check | Leave earlier if cloud, wind, fatigue or wildlife activity makes the wait poor value. The objective is a real dark-sky look, not a fixed departure at any cost. |
-| 8:30–about 10:35 pm | Drive approximately 200 km to Bayswater | This is night driving through wildlife country. Use high beam only when legal, reduce speed below the limit when visibility demands it, scan road edges, and swap authorised drivers if needed. Never swerve sharply for an animal. |
+| 6:50–7:15 am | Drive about 17 km from Bayswater to D&Y Banh Mi Cafe | The tank is already full, so go directly to **130B Mounts Bay Road**. Check the gauge and dashboard range before departure; carry water, sunscreen, closed shoes and long pants in case anyone chooses a vehicle activity. |
+| 7:15–8:00 am | **Proper Vietnamese breakfast at D&Y** | Eat in rather than buying a picnic dinner. Leave by 8:00 am; the long first drive creates the day's useful recovery time. |
+| 8:00–9:45 am | Drive approximately 135 km to Lancelin town | Split the drive if either authorised driver is tired. Do not take the rental hybrid onto sand or any off-road track. |
+| 9:45–10:00 am | **Toilets and quick gauge check in Lancelin** | Use town/roadhouse facilities because there are no toilets or drinking water at the dunes. Refuel only if the gauge or range is unexpectedly poor. |
+| 10:00–10:10 am | Drive to the main Lancelin Sand Dunes car park | Park only on the firm designated visitor area off Beacon Road. Hidden limestone, soft sand and moving off-road vehicles make the dunes unsuitable for the rental car. |
+| 10:10–11:30 am | **Lancelin on-arrival decision window** | First look at the dunes and operators together. Choose the free viewpoint/sandboard option, the 11:00 am 4WD bus if seats exist, or a short Mr Xtreme ride if genuinely available. **11:30 am is the target departure; 11:45 am is the hard limit.** The two-hour Perth Quad tour does not fit without deleting lunch or later stops. Full comparison immediately below. |
+| 11:30 am–12:45 pm | Drive approximately 85 km to Cervantes | Default branch: go to Lobster Shack. If the group instead chooses a seated 3 Emus lunch in Lancelin, eat by about 11:40 am–12:40 pm, then drive to Cervantes and rejoin the schedule at Lake Thetis around 2:00 pm. |
+| 12:45–1:50 pm | **Proper lunch at Lobster Shack** | This is the signature regional choice, although it is counter-service rather than formal table service. Known fixed-price choices include lobster tacos around A$32, lobster roll around A$36, fish and chips around A$34 and chowder around A$38; whole lobster/platter pricing is market price, so ask before ordering. The kitchen currently lists 11:00 am–3:00 pm. |
+| 1:50–2:00 pm | Fuel, water and toilet decision in Cervantes | Refuel only if at or below half a tank; there is no fuel in Nambung National Park. No ice purchase is needed because dinner is now at a restaurant. |
+| 2:00–2:25 pm | **Lake Thetis stromatolite boardwalk** | Drive about 3 km, then use the first approximately 300 m of boardwalk for the best stromatolite views. The full 1.5 km loop is optional only if everyone wants it and the day is on time. This is the first stop to shorten after a late dune activity. |
+| 2:25–2:45 pm | Drive approximately 23 km to Hangover Bay | Follow sealed roads and signed park access. Pay/retain the Nambung vehicle-entry receipt when required. |
+| 2:45–3:25 pm | **Hangover Bay** | Short beach and coastal reset with minimal compulsory walking. Leave earlier if the Discovery Centre closing time is at risk. |
+| 3:25–3:40 pm | Drive approximately 8 km to Pinnacles Desert | This begins one continuous Pinnacles visit; there is no unnecessary exit and re-entry. |
+| 3:40–4:25 pm | **Pinnacles Desert Discovery Centre** | See the compact geology, ecology and cultural displays, then use the toilets. The centre closes around 4:30 pm, so do this before the outdoor circuit. Twenty to thirty minutes is normally enough; leave earlier if it feels repetitive. |
+| 4:25–6:55 pm | **Pinnacles lookout, official 4.5 km drive loop and sunset** | Friend can use only the first accessible approximately 300 m path and the car-based pull-offs; the full 1.5 km sandy walk is optional. Drive the official one-way tourist loop slowly, stop only in marked pull-offs, then choose one safe formation group for golden hour. Sunset is approximately 6:48 pm. If thick cloud removes the light, leave early rather than waiting for its own sake. |
+| 6:55–7:15 pm | Drive approximately 20 km to Pinnacles Edge Resort, Cervantes | **Phone 08 9652 7145 during breakfast or from Lancelin and request a 7:15 pm table for three.** The restaurant recommends reservations and currently takes last orders at 8:00 pm. If it cannot take the booking, use Cervantes Country Club as the local fallback and confirm its kitchen timing by phone. |
+| 7:15–8:20 pm | **Proper dinner at Pinnacles Edge** | This is deliberately different from Lobster Shack: seated dinner, with options including emu dumplings (listed around A$18 for five), grilled kangaroo or porterhouse (around A$44 on the current menu). Confirm the live menu on arrival. Skip alcohol for both authorised drivers. |
+| 8:20–about 10:30 pm | Drive approximately 200 km to Bayswater | Swap authorised drivers if needed. This is night driving through wildlife country: reduce speed when visibility demands it, scan the verges and never swerve sharply for an animal. The Sunday hotel voucher will probably expire unused, which is preferable to rushing sunset or dinner. |
 
-**Total road load:** approximately 430–450 km and about five hours behind the wheel. Start with a full tank and enter the Pinnacles with at least half a tank; do not plan to buy fuel after stargazing. The near-new-moon timing makes the late finish worthwhile, but only if the rental conditions permit the trip and both drivers remain alert.
+### Lancelin decision card — read this in the car park
 
-**Weather fallback:** if cloud removes the stargazing value, leave the Pinnacles after sunset and recover roughly 75 minutes. If Sunday is forecast unsafe while another day is clear, do not automatically swap with Rottnest without first checking ferry availability.
+| Choice | Current price and duration | Booking reality | Effect on today |
+|---|---|---|---|
+| **Look, photograph and optional sandboard** | Dune access is free; local board hire is commonly advertised from about A$10 per hour, subject to same-day stock | Decide locally. The 4WD operator currently marks its own online sandboard hire unavailable, so do not rely on that specific stock. | Best flexible fallback. Spend 40–75 minutes and depart on time. Walking is on soft sand; the friend can remain near the car/viewpoint. |
+| **Lancelin 4x4 Adventures bus** | **A$35 adult**, 45 minutes; departures at 10:00, 11:00, 12:00, 1:00, 2:00 and 3:00 | Online booking is offered for each fixed departure. On-arrival seats are not guaranteed. The bus carries 2–24 people and includes photo stops plus sandboarding. | Ask immediately about the **11:00 am** departure. It fits neatly and avoids self-driving. Not suitable for pregnancy, serious back problems or children under four. |
+| **Mr Xtreme 30-minute solo quad** | **A$90 per rider**, 30 minutes in a delimited area | Its activity page labels this “no booking required”, but availability and queue length can still change. ID and waiver required. | Good spontaneous active option if a bike is free. Allow briefing/changeover time and still leave by 11:30–11:45 am. |
+| **Mr Xtreme four-seat buggy** | Listed at **A$180 for 30 minutes** or A$270 for one hour | Its page also labels the buggy “no booking required”; confirm that the listed amount covers the whole buggy, who may drive, passenger count and availability before paying. | Best candidate if all three want a vehicle together. A **A$500 credit-card pre-authorisation** is listed for a buggy; do not proceed if release timing/terms are unclear. |
+| **Perth Quad guided quad/buggy + sandboarding** | Solo quad A$149; duo quad A$189; buggy solo/duo A$239; about two hours total | Advance online availability/booking is expected. Sessions are listed at 10:00 am, 1:00 pm and 3:00 pm; no driving licence is required for the listed vehicles. ATV groups list a A$250 bond and buggies A$500. | Poor fit for a spontaneous choice today. A two-hour session would force deletion of the proper lunch and at least Lake Thetis/Hangover Bay. Do not book it at the dunes unless the whole group consciously accepts that trade. |
 
-**Sunday food outcome:** Vietnamese breakfast, the region's signature lobster lunch and a chilled Vietnamese picnic dinner replace the previous oats/Western-wrap assumptions. Dinner still has to be portable because the best light and dark-sky window occurs after the Discovery Centre and nearby kitchens have ceased being useful.
+**Before paying any operator:** confirm the exact start/finish time, total price for three people, bond/pre-authorisation release, who is allowed to drive, insurance/damage liability, footwear requirements and whether photos/sandboards are included. Mr Xtreme lists helmet and gloves, asks for ID and a waiver, and recommends closed shoes, long pants and one litre of water. Neither NSW P2 status nor rental-car permission matters when using an operator's vehicle if the operator confirms eligibility; the rental hybrid must remain parked.
+
+**Dune safety:** stay inside the public sandboarding/visitor area, look uphill before crossing a slope and expect quads, buggies and 4WDs. Soft sand can hide rocks and limestone. Do not stand below riders or walk into a vehicle track for a photo.
+
+**Decision rule:** if a short ride can start by about 10:45–11:00 am and finish by 11:30 am, it fits. If the only available ride finishes after 11:45 am, keep the dunes free/short and protect lunch, the Discovery Centre and sunset.
+
+**Total road load:** approximately 440–455 km and about five hours behind the wheel. The late finish now comes from proper dinner rather than stargazing. If fatigue becomes the issue, shorten Lake Thetis and Hangover Bay first; do not rush the dune operator, sunset drive or night return.
+
+**Weather fallback:** wind and poor visibility can reduce dune and sunset value. If operators suspend rides, use the free viewpoint and leave early. If cloud fully removes golden-hour colour, depart the Pinnacles after the drive loop and take an earlier dinner.
+
+**Sunday food outcome:** proper Vietnamese breakfast, a proper regional lunch and a seated dinner. Default is Lobster Shack lunch plus Pinnacles Edge dinner. If Lobster Shack's market-price seafood is poor value, use its fixed-price menu or take the 3 Emus lunch branch in Lancelin; do not fall back to a packed meal unless the group chooses it.
 
 ## Monday 9 November · Heirisson, two CBD car parks, airport train, aviation and both departures
 
@@ -264,7 +276,7 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 6. **Captain Hussey train + Oliver Hill tunnel:** target the **10:30 am train and 11:00 am tunnel tour**. Buy/check availability immediately after breakfast. The experience normally takes about two hours; the tunnel contains around 240 uneven steps. If it is unavailable or the friend does not want the stairs, use the Explorer-first fallback.
 7. **Saturday restaurant:** Hotel Rottnest is walk-in only. Reserve a **12:40–12:45 pm** table at Isola or Lontara only if the group prefers that over the flexible steak-sandwich/pub option.
 8. **Bell Tower/Bell Chiming:** leave optional and buy only if Monday remains comfortably on time. It is the first Monday activity to omit.
-9. **Lancelin sandboard:** decide locally only if everyone wants it. Never take the rental car onto the dunes.
+9. **Lancelin activities:** use the detailed on-arrival decision card in Sunday's section. The 45-minute 4WD bus is the only option worth pre-booking if the group decides before arrival; otherwise ask about the 11:00 am bus, Mr Xtreme's short walk-up quad/buggy, or use the free viewpoint/sandboard fallback. Never take the rental car onto the dunes.
 
 ### Confirm, but do not pay in advance
 
@@ -323,6 +335,10 @@ Use this version if the **10:30 am train/tunnel is unavailable**, the friend doe
 - [Pinnacles View path accessibility and distance](https://exploreparks.dbca.wa.gov.au/access-trails)
 - [Pinnacles Desert official drive](https://exploreparks.dbca.wa.gov.au/site/pinnacles-desert-lookout-and-drive)
 - [Lobster Shack Cervantes kitchen hours](https://www.lobstershack.com.au/contact/)
+- [Pinnacles Edge dinner hours, reservations and menu](https://www.pinnaclesedgeresort.com.au/restaurant/)
+- [Lancelin 4x4 Adventures bus times and 2026–27 prices](https://www.lancelin4x4adventures.com.au/lancelin-tours/lancelin-sandboarding-product)
+- [Mr Xtreme short quad/buggy prices, bonds and requirements](https://www.mrxtreme.com.au/off-road-activities)
+- [Perth Quad guided-tour times, prices and eligibility](https://www.perthquad.com/lancelinsanddunestours)
 - [Cervantes sunset and twilight times](https://www.seabreeze.com.au/weather/sun/cervantes-wa-6511)
 - [Perth November 2026 moon phase and set times](https://www.timeanddate.com/moon/australia/perth?month=11)
 - [Aviation Heritage Museum hours](https://aviationmuseumwa.org.au/)
