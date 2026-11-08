@@ -285,12 +285,14 @@ All timings assume the group leaves the Pinnacles at about **6:55 pm**, immediat
 
 **Purpose:** this is the locked Monday structure. Stay together through an early lunch while moving the car west with the itinerary. Use CPP Fire Station for the Mint, then CPP Convention Centre for Elizabeth Quay. Record both entry times and set a phone alarm before each two-hour threshold. Your wife collects her cabin bag from the second car park and takes the train to T2 while you and your friend drive directly to the Aviation Heritage Museum. All luggage stays concealed in the boot until the travellers separate.
 
+**Parking abbreviation:** **CPP** means **City of Perth Parking**, the City of Perth's public car-park network.
+
 | Time | Plan | What to do |
 |---|---|---|
 | 6:50–7:10 am | Check out and load the car | Check the room carefully, put every suitcase out of sight in the boot and complete checkout. Confirm both flights, Jetstar online check-in and the saved boarding passes. Carry one snack and an empty/refillable bottle for each departing passenger. |
 | 7:10–7:40 am | **Vietnamese breakfast at Munch Box Bayswater** | Return to **Unit 2/34 Jackson Street**, open from 5:30 am on weekdays. Walk in and eat there or take away if service is slow. There is no Monday hotel voucher. |
-| 7:40–8:00 am | Drive about 11 km to Heirisson Island | Use the island car park. Do not open the luggage compartment after parking. |
-| 8:00–8:45 am | Heirisson Island | Walk directly to the southern kangaroo enclosure and river viewpoint. With Caversham removed, this is the compact kangaroo opportunity. Turn back by 8:35 and be at the car at 8:45 so the Mint booking remains protected. |
+| 7:40–8:00 am | Drive about 11 km to **CPP Heirisson Island Car Park** | Search [**Heirisson Island Car Park, Causeway**](https://www.google.com/maps/search/?api=1&query=Heirisson%20Island%20Car%20Park%2C%20Causeway%2C%20East%20Perth%20WA), not the generic island pin. The signed entrance is from the Causeway heading east away from the CBD toward Victoria Park. CPP lists 18 regular bays, one disability bay, no fee and a three-hour limit. Do not open the luggage compartment after parking. |
+| 8:00–8:45 am | Heirisson Island | From the northern car park, walk directly toward the southern fenced kangaroo enclosure and river viewpoint. With Caversham removed, this is the compact kangaroo opportunity. Turn back by 8:35 and be at the car at 8:45 so the Mint booking remains protected. If the small CPP car park is full, skip the island rather than risking the Mint booking while searching elsewhere. |
 | 8:45–9:00 am | Drive about 3 km and enter **CPP Fire Station, 1 Murray Street** | Record the entry time. This is an open-air pay-by-plate car park about five minutes' walk from the Mint. Leave every suitcase concealed. If Sunday ended late, skip Heirisson and still target this 9:00 am parking time. |
 | 9:00–9:25 am | Walk to The Perth Mint and check in | Be at reception 10–15 minutes before the booked session. This is the deliberate CBD parking/check-in cushion; do not add a café stop. |
 | 9:30–10:30 am | **Discover The Perth Mint — earliest session and fixed choice** | Book the 9:30 am restoration-period experience; no earlier session is offered. Its designed duration is 60 minutes and includes the live gold pour, world-record gold displays, nuggets and the historic melting house. The exhibition is the priority; browse the shop only if it is genuinely interesting. Bullion purchases require separate registration and can consume the spare time. |
@@ -314,6 +316,7 @@ All timings assume the group leaves the Pinnacles at about **6:55 pm**, immediat
 
 ## Tuesday 10 November
 
+- **Morning coffee at POST, The State Buildings:** navigate to [**CPP Council House Car Park, 27 St Georges Terrace**](https://www.google.com/maps/search/?api=1&query=CPP%20Council%20House%20Car%20Park%2C%2027%20St%20Georges%20Terrace%2C%20Perth%20WA), not the hotel valet entrance. **CPP means City of Perth Parking.** This is the closest practical self-parking, costs A$7 per hour and uses licence-plate recognition. Walk a couple of minutes to **POST, Ground Floor, Postal Hall, 1 Cathedral Avenue**. POST serves breakfast and coffee from 6:30–11:00 am. The State Buildings valet costs A$55 for up to three hours and is poor value for a short coffee.
 - Stay with your aunt until approximately 3:00 pm.
 - Add the final drive/airport buffer after your own Tuesday flight time and terminal are confirmed.
 
